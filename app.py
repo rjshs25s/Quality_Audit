@@ -13,6 +13,8 @@ CREDS_FILE = "vertical-album-455112-i0-9288d1231fb9.json"
 BUCKET_NAME = "jupiter-quality-audit"
 EMP_CSV = "employee_data.csv"
 ACCESS_CSV = "access_control.csv"
+ACPT_CSV = "ACPT.csv"
+
 
 # Load data with caching
 @st.cache_data(ttl=3600)
@@ -36,6 +38,17 @@ def load_all_audits(bucket_name, creds_path):
             except:
                 continue
     return pd.DataFrame(data)
+
+
+@st.cache_data(ttl=3600)
+def load_acpt_parameters(csv_file):
+    df = pd.read_csv(csv_file)
+    acpt_dict = {}
+    for col in df.columns:
+        acpt_dict[col] = df[col].dropna().tolist()
+    return acpt_dict
+
+
 
 # Initialize session states
 def init_session_state():
@@ -264,15 +277,17 @@ def main_form():
     }
 
     parameter_scores = {
-        "Opening and Closing": 10, 
+        "Opening and Closing": 15, 
         "Communication and Language": 20, 
         "Empathy and Professionalism": 20,
         "Correct and Complete Resolution": 10, 
-        "Proactive Assistance": 15, 
+        "Proactive Assistance": 20, 
         "Hold and Dead air": 10,
         "Right action taken": 0, 
         "Properties": 15
     }
+
+    
 
     # Scoring Section
     st.header("Audit Parameters")
@@ -290,6 +305,22 @@ def main_form():
 
     final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
     st.metric("Overall Score", "ZTP" if ztp_flag == "Yes" else ("Fatal" if fatal_error else f"{final_score_display}%"))
+
+    ### ACPT 
+    st.header("ACPT Observations (Non-scoring)")
+    acpt_parameters = load_acpt_parameters(ACPT_CSV)
+
+    acpt_results = {}
+    for category, issues in acpt_parameters.items():
+        st.markdown(f"**{category}**")
+        selected = st.multiselect(f"Select issues under {category}", issues, key=f"acpt_{category}")
+        acpt_results[category] = selected
+
+    # Now the Action Buttons section can use acpt_results
+    final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
+    st.metric("Overall Score", "ZTP" if ztp_flag == "Yes" else ("Fatal" if fatal_error else f"{final_score_display}%"))
+
+
 
     # Action Buttons
     col_email, col_submit = st.columns(2)
@@ -374,7 +405,9 @@ Resolution:
                     "Resolution": resolution,
                     "Parameters": results,
                     "Email Sent": "Yes",
-                    "Email Timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    "Email Timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "ACPT Observations": acpt_results,
+
                 }
 
                 json_data = json.dumps(audit_entry, indent=2)
@@ -389,6 +422,8 @@ Resolution:
                     st.rerun()
                 except Exception as e:
                     st.error(f"❌ Failed to upload audit: {e}")
+
+
 
 # Main app flow
 if not st.session_state.logged_in:
@@ -412,3 +447,5 @@ else:
             st.session_state.email_sent = False
             st.session_state.entity_check = None
             st.rerun()
+
+   
