@@ -1,0 +1,45 @@
+Queue,Call Date,Calling Number,Entity ID,Audit Date,Associate Email ID,Team Leader Email,Audit Type,Associate Name,Team Lead,Auditor Name,Call Duration,Hold Duration,Call Link,ZTP Violation,Total Score,Issue VOC,Resolution,Parameters,Email Sent,Email Timestamp
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,100,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:16:07
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,Associate Name,,,Call Duration,,,No,100,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:19:22
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,110,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 25}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:20:37
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,100,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:21:16
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,100,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:24:35
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,100,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:24:53
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,100,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:25:06
+Inbound,2025-03-28,,,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,,,,,,,No,110,,,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 25}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:26:47
+Inbound,2025-03-28,rajesh.shankar@jupiter.money,"[{'Parameter': 'Opening and Closing', 'Selected Reasons': '', 'Score': 0}, {'Parameter': 'Communication', 'Selected Reasons': '', 'Score': 0}]",0,2025-03-28 17:28:57
+Inbound,2025-03-28,Calling Number,Entity ID,2025-03-28,rajesh.shankar@jupiter.money,rajesh.shankar@jupiter.money,Regular Audit,Associate Name,Team Lead,Auditor Name,Call Duration,Hold Duration,Call Link,No,100,"Issue (VOC)
+
+","Resolution
+
+","[{'Parameter': 'Opening and Closing', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Communication and Language', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Empathy and Professionalism', 'Selected Reasons': 'Compliant', 'Score': 20}, {'Parameter': 'Correct and Complete Resolution', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Proactive Assistance', 'Selected Reasons': 'Compliant', 'Score': 15}, {'Parameter': 'Hold and Dead air', 'Selected Reasons': 'Compliant', 'Score': 10}, {'Parameter': 'Right action taken', 'Selected Reasons': 'Compliant', 'Score': 0}, {'Parameter': 'Properties', 'Selected Reasons': 'Compliant', 'Score': 15}]",Yes,2025-03-28 17:30:36
