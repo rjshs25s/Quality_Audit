@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vertical-album-455112-i0",
+  "private_key_id": "9288d1231fb90a8839b1824f68ad387b2296f752",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC17HkIUsCY4UC0\nWW6QUiX+cgyOf/9q3/KJNJkFZ6ncY6rDPA9rpJsoUywfwJy4GJs0hrJw4XwHkWfk\nJiCt9IBv73VeVnpYiKNWbI01MQFYc30ObFVtro2Iq3Kff6YRpEmxKBJJW8riNccf\ntJNmIknRg9bg1xUebUlPjPEREQqqQrk83mgoAPSbtnFBniT4YBHGUXycJQ9LXBQL\nIO3OWl015sh/Yn9FJLE3myHoQb2Dp5whjiLH05bDIWKM6wDQSeL74jpJihShKF+h\nkP21xE7zYR0LOME+incGLxSrJXrZK40nlEXx9yXE6iMU80wY+CZk3G1790Fwgqrv\nDRzrTa6BAgMBAAECggEAJRoV4gRsepFf3pgppB3Y2VB9rpc8qlmDb4eOWKuYWRXr\nhtcqJvAiY6I4yr3/yEzeZGM/I6Xc43c8aqt6+Tc29X0u4N8+ou008KSBVPKKXXVq\nMQWXk5+ohlG+9ff00L7Cd7KeLh9eHG3OzzDG6eq+xs++REshJ7wumh56sJoa5HeQ\nc6wn0BawDVaLGnUCskBc8hDDqRdNHvdvxrv3xT482MB4XT5QEnMHV7LGBMH6S6S0\nepHGacZcM17pACd41PuobXzHtRgKDIDYhfzXNAkjxqxIa0noFvCzZdKgbwcEwDbD\nI+4MkB7chApE3qrob6cjq08BtxnUgOdr36fYTiXFdQKBgQDmhH4C2vfuEuHIIcBF\n2SZ1veebUFJdRgzb7TmFcWgQSJtMXRbkzWx3jvtudsbO8f4gO5A0O4fM3g0Sl6NM\nnoM7qxtaMuXRKSLQzKfGaT3MEalFxZxdtFztRatedeZYEXfmYmH6HCLf58fvSU8u\nT+Yn/XqOhjGLM01+MoFbCxKXPQKBgQDKCM32lG84g8+IjxCGUR0iV8gJ7tawinGg\n5HQNHerLoIlEURflvsWrjhWji5sFwHzF0hO6kI1tjT1U9fI6J4dy7tJ8+MqFEYsU\nrxEA7LkUdgH2goH+MTqDSsSvUvzvrxC+pWrT5eQLC6Wk/Rqys8Pzo/6pFYwHgKwd\n9oOvVeTIlQKBgCbV0WjnvPc15SXTUdIyqEET0k4fNRETuRzgFV2+4lpD8S3nTPEV\nDp4Bz6gniIzaxgZmIoA6O0GvcyJbu54v4koOJJiIlKEtPflRUT6jAk879nmTtikv\nNqyenSVX1Yumvb1pe7ooPVPdd5h/kEBsI4k/MgOK5hPee8Kz/Yj6D5K9AoGAfJrZ\njM8XmZ+SDANQicbVVS0WrymjN9brJfRAryZYfaZRgtURDB2RBLHpHqknv3BshAWB\nLXuh/oMx5IicEMn4fCZXo8Q+A7xCL0uaDRvzOm9d3o+3ZPMvx3IBxLBGV/19MlgL\nfw02jKluTEfeg4DjxgzLL7WeW7I8dW5o4Wb0Z9ECgYA39GL3LfK2wVZj83UZssIl\nizXy4I/R7kJreqWscuUg7mFflM9/pCUn4rxKIhjoc+uqS49v8T3t/cZHYlW2ZRo0\nvfnFaZKjwoKR7SQmnrtvPz43P4WhAPEChZBHB5le1/1V6bBx4MoM1I/enNACL3bn\nnP4r16KIN7r278b7jROweQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "audit-form-service-account@vertical-album-455112-i0.iam.gserviceaccount.com",
+  "client_id": "108728970418485617998",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/audit-form-service-account%40vertical-album-455112-i0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
