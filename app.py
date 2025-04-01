@@ -208,7 +208,7 @@ def main_form():
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         queue = st.selectbox("Queue", ["Inbound", "Outbound"], key="queue")
-        call_date = st.date_input("Interaction Date", key="call_date")
+        call_date = st.date_input("Interaction Date", key="Interaction_date")
     with col2:
         st.text_input("Associate Name", value=st.session_state.associate_info["name"], disabled=True, key="associate_name_display")
         st.text_input("Team Lead", value=st.session_state.associate_info["tl_name"], disabled=True, key="team_lead_display")
@@ -333,8 +333,7 @@ def main_form():
 
 Agent & Call Details:
 Queue: {queue}
-Call Date: {call_date}
-Calling Number: {calling_number}
+Interaction date: {Interaction_date}
 Audit Date: {datetime.date.today()}
 Associate Name: {st.session_state.associate_info["name"]}
 Associate Email: {st.session_state.associate_info["email"]}
