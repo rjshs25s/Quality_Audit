@@ -328,7 +328,7 @@ def main_form():
 
 
     ### ACPT 
-    st.header("ACPT Observations (Non-scoring)")
+    st.header("ACPT Observations")
     acpt_parameters = load_acpt_parameters(ACPT_CSV)
 
     acpt_results = {}
