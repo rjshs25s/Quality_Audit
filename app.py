@@ -208,8 +208,8 @@ def main_form():
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         queue = st.selectbox("Queue", ["Inbound", "Outbound"], key="queue")
-        call_date = st.date_input("Interaction Date", key="Interaction_date")
-        
+        call_date = st.date_input("Call Date", key="call_date")
+        calling_number = st.text_input("Calling Number", key="calling_number")
     with col2:
         st.text_input("Associate Name", value=st.session_state.associate_info["name"], disabled=True, key="associate_name_display")
         st.text_input("Team Lead", value=st.session_state.associate_info["tl_name"], disabled=True, key="team_lead_display")
@@ -223,7 +223,7 @@ def main_form():
         hold_duration = st.text_input("Hold Duration", key="hold_duration")
         call_link = st.text_input("Call Link", key="call_link")
     with col5:
-        audit_type = st.selectbox("Audit Type", ["Regular Audit", "OJT", "Recertification", "Certification1","Focus Audit","Repeat","D-SAT","C-SAT","Nuetral","FCR","Calibration"], key="audit_type")
+        audit_type = st.selectbox("Audit Type", ["Regular Audit", "OJT-Feedback1", "OJT-Feedback2", "Certification1"], key="audit_type")
         
         def is_duplicate_entity(entity_id, bucket_name, creds_path):
             creds = service_account.Credentials.from_service_account_file(creds_path)
@@ -280,7 +280,7 @@ def main_form():
         "Opening and Closing": 15, 
         "Communication and Language": 20, 
         "Empathy and Professionalism": 20,
-        "Correct and Complete Resolution": 0, 
+        "Correct and Complete Resolution": 10, 
         "Proactive Assistance": 20, 
         "Hold and Dead air": 10,
         "Right action taken": 0, 
@@ -334,7 +334,8 @@ def main_form():
 
 Agent & Call Details:
 Queue: {queue}
-Interaction date: {Interaction_date}
+Call Date: {call_date}
+Calling Number: {calling_number}
 Audit Date: {datetime.date.today()}
 Associate Name: {st.session_state.associate_info["name"]}
 Associate Email: {st.session_state.associate_info["email"]}
@@ -383,7 +384,7 @@ Resolution:
             else:
                 audit_entry = {
                     "Queue": queue,
-                    "Interaction Date": str(Interaction_Date),
+                    "Call Date": str(call_date),
                     "Calling Number": calling_number,
                     "Entity ID": entity_id,
                     "Audit Date": str(datetime.date.today()),
