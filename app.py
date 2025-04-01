@@ -280,7 +280,7 @@ def main_form():
         "Opening and Closing": 15, 
         "Communication and Language": 20, 
         "Empathy and Professionalism": 20,
-        "Correct and Complete Resolution": 10, 
+        "Correct and Complete Resolution": 0, 
         "Proactive Assistance": 20, 
         "Hold and Dead air": 10,
         "Right action taken": 0, 
