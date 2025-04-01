@@ -209,7 +209,7 @@ def main_form():
     with col1:
         queue = st.selectbox("Queue", ["Inbound", "Outbound"], key="queue")
         call_date = st.date_input("Call Date", key="call_date")
-        calling_number = st.text_input("Calling Number", key="calling_number")
+        calling_number = st.text_input("Interaction Number", key="calling_number")
     with col2:
         st.text_input("Associate Name", value=st.session_state.associate_info["name"], disabled=True, key="associate_name_display")
         st.text_input("Team Lead", value=st.session_state.associate_info["tl_name"], disabled=True, key="team_lead_display")
