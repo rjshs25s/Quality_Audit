@@ -1,0 +1,1128 @@
+PCIR
+App Issue | App Lag issue | T/S Shared - Asked to Retry
+App Issue | App Screen Stuck | T/S Shared - Asked to Retry
+App Issue | L2J: App Lag issue | After wait time - Escalated to Tech
+App Issue | L2J: App Screen Stuck | After wait time - Escalated to Tech
+App Issue | L2J: non-responsive CTA | After wait time - Escalated to Tech
+App Issue | L2J: OTP Related | After wait time - Escalated to Tech
+App Issue | non-responsive CTA | T/S Shared - Asked to Retry
+App Issue | OTP not coming | T/S Shared - Asked to Retry
+Bill Payments-Info & Details | Can I add/delete biller? | Informed about adding/deleting
+Bill Payments-Info & Details | Can i set reminder in BBPS | Currently process not available
+Bill Payments-Info & Details | How to initiate BBPS payment | Informed about process flow
+"Bill Payments-Info & Details | Never linked merchant, bill appears in app | Informed about deleting"
+Bill Payments-Info & Details | Other Enquiry | Others
+Bill Payments-Transaction | Fraud and Suspicious Transaction |
+Bill Payments-Transaction | Refund not initiated-post TAT | L2C: Refund issue
+Bill Payments-Transaction | Refund not initiated-within TAT | Advised to wait till TAT
+Bill Payments-Transaction | Txn Enquiry - Within TAT | Advised to wait till TAT
+Bill Payments-Transaction | Txn Failed - Post TAT | L2C: Txn failed issue
+Bill Payments-Transaction | Txn Processing - Post TAT | L2J: Txn in processing issue
+Bill Payments-Transaction | Txn Successful - Post TAT | L2C: Disputing successful txn issue
+Bill Payments-Transaction | Unable to pay bill | L2J: Unable to pay
+BT - Activation | Standing Instruction Enquiry | Informed about process flow
+BT - Activation | Standing Instruction Issues | L2C: Standing Instruction Issue
+BT - Beneficiary | Payee Activation | L2C: Payee Activation Issue
+BT - Beneficiary | Payee Addition Enquiry | Guided through steps
+BT - Beneficiary | Payee Removal | L2C: Payee Removal Issue
+BT - Incoming Transaction | Incorrect Transaction Received | L2C: Incorrect txn issue
+BT - Incoming Transaction | Refund Issue | L2C: Refund issue
+BT - Incoming Transaction | Transaction Status Enquiry | No visibility/request for proof
+BT - Incoming Transaction | Txn not found | L2C: IMPS txn failed issue
+BT - Incoming Transaction | Txn not found | L2C: NEFT/RTGS - txn failed issue
+BT - Info & Details | Directed to DMP | Guided through DMP flow
+"BT - Info & Details | Features ,Charges & Limits Enquiry | Informed about features/charges/limits"
+BT - Outgoing txn | Chargeback Related enquiry | Informed about TAT
+BT - Outgoing txn | DMP Post TAT | L2C: DMP Update
+BT - Outgoing txn | DMP Update | Guided through DMP steps
+BT - Outgoing txn | Fraud and Suspicious Transaction | Informed about txn status
+BT - Outgoing txn | IMPS txn failed | L2C: IMPS txn failed issue
+BT - Outgoing txn | Invalid IFSC code | L2J: Invalid IFSC code issue
+BT - Outgoing txn | Merchant refund delay | L2C: Merchant refund delay issue
+BT - Outgoing txn | mPIN Related | Guided through the steps
+BT - Outgoing txn | NEFT/RTGS - txn failed | L2C: NEFT/RTGS - txn failed issue
+BT - Outgoing txn | Refund Enquiry money debited | Informed about TAT
+BT - Outgoing txn | Refund not received | L2C: Refund issue
+BT - Outgoing txn | Requesting UTR num | L2C: Requesting UTR num issue
+BT - Outgoing txn | Suspicious/fraud txn | L2C: Chargeback for suspicious/fraud txn issue
+BT - Outgoing txn | Transacting within limit | L2J: Transacting within limit issue
+BT - Outgoing txn | Transaction Failed | Informed IMPS failure reasons
+BT - Outgoing txn | Transaction Failed | Informed NEFT/RTGS failure reasons
+BT - Outgoing txn | Transaction Status Enquiry | Informed about txn status
+BT - Outgoing txn | Unable to initiate txn | L2J: Unable to initiate txn issue
+BT - Outgoing txn | UTR enquiry | UTR Number Shared
+BT - Outgoing txn | Wrong transfer | L2C: Chargeback for wrong transfer issue
+DC - AMC related | AMC a/c closure enquiry | Provided a/c closure details
+DC - AMC related | AMC double debit | L2C: Escalated to bank
+DC - AMC related | AMC enquiry | Explained about AMC
+DC - AMC related | Incorrectly Charged | L2J : AMC Incorrectly Charged
+DC - AMC related | Refund Delay | L2J : AMC_Refund Delay Issue
+DC - AMC related | Refund request | AMC Refund enquiry
+DC - AMC related | Refund request | AMC Refund Status Enquiry
+DC - AMC related | Refund request | L2C: AMC Refund Request
+DC - AMC related | Refund request | L2J : AMC_Unable to Refund Issue
+DC - ATM Transaction | ATM withdrawal | L2J: ATM withdrawal issue
+DC - ATM Transaction | ATM Withdrawal charges | L2C: ATM Withdrawal charges issue
+DC - ATM Transaction | DC Not Accepted Issue | Informed about merchant list
+DC - ATM Transaction | No cash/partial cash dispensed | L2C: No cash/partial cash dispensed issue
+DC - ATM Transaction | Refund not received | Advise to raise DMP post 5 days
+DC - ATM Transaction | Suspicious/Fraud txn | Informed about process flow
+DC - ATM Transaction | Suspicious/Fraud txn | L2C: Chargeback for suspicious/fraud txn issue
+DC - ATM Transaction | Transaction Failed | Informed about failed reasons
+DC - ATM Transaction | Transaction Failed | L2J: Transaction Failed
+DC - DC Usage | Damaged DC enquiry | Informed about process flow
+DC - DC Usage | DC name issue | Informed about process steps
+DC - DC Usage | DC name issue | L2J: DC name issue
+DC - DC Usage | DC PIN related | Informed about DC pin setting steps
+DC - DC Usage | DC PIN related | L2J: DC PIN related issue
+DC - DC Usage | Failed txn charges | Informed about failed Txn Charges
+DC - DC Usage | Failed txn charges | L2J: Failed txn charges issue
+DC - DC Usage | Virtual DC - Generation enquiry | Informed about process flow
+DC - DC Usage | Virtual DC - Generation issue | L2J: Generating virtual DC
+DC - Delivery Escalation | DC delay | L2C: DC delay delivery issue
+DC - Delivery Escalation | DC disputing delivery | L2C: DC disputing delivery issue
+DC - Delivery Escalation | DC not delivered | L2C: DC not delivered issue
+DC - Delivery Escalation | DC refund | L2J: DC refund issue
+DC - Delivery Escalation | DC tracking unavailable | L2C: DC tracking details unavailable issue
+DC - Delivery Escalation | Physical DC ordering | L2J: Physical DC ordering issue
+DC - Delivery Escalation | Unable to redispatch | L2J: Unable to redispatch
+DC - Info & Details | Autopay issue | L2J: Autopay issue
+DC - Info & Details | Autopay set up | Provided steps for Autopay / Provided info of autopay
+DC - Info & Details | Cancel autopay | Advised to contact Merchant
+DC - Info & Details | Card Design Customization | Feature not available
+DC - Info & Details | Charges & Limits Enquiry | Informed about charges/limits
+DC - Info & Details | DC App Controls Enquiry | Guided through steps
+DC - Info & Details | Directed to DMP | Guided through steps
+DC - Info & Details | Set DC PIN Enquiry | Guided through steps
+DC - Info & Details | TCS deduction Enquiry | Informed about process flow
+DC - Outgoing Transaction | DMP Post TAT | L2C: DMP update
+DC - Outgoing Transaction | DMP update | DMP details provided
+DC - Payment Transaction | DC Not Accepted Issue | Informed about merchant list
+DC - Payment Transaction | DC Not Accepted Issue | L2J: DC Not Accepted Issue
+DC - Payment Transaction | Disputing successful txn | L2C: Disputing successful txn issue
+DC - Payment Transaction | Duplicate Payment | L2C: Chargeback for duplicate payment issue
+DC - Payment Transaction | Forex charge | L2J: Forex charges issue
+DC - Payment Transaction | Fraud & Suspicious Transaction | Informed about process flow
+DC - Payment Transaction | Goods/service not provided | L2C: Chargeback for goods/service not provided issue
+DC - Payment Transaction | MCC enquiry | Informed about MCC details
+DC - Payment Transaction | Merchant refund delay(Post TAT) | L2C: Merchant refund delay issue
+DC - Payment Transaction | Merchant refund delay(within TAT) | Advised to wait till TAT
+DC - Payment Transaction | OTP Issue | L2J: OTP issue
+DC - Payment Transaction | OTP Issue | Provided alternatives for OTP
+DC - Payment Transaction | Refund Issue | L2C:Refund issue
+DC - Payment Transaction | Refund not received | Advised to wait till TAT
+DC - Payment Transaction | Suspicious/fraud txn | L2C: Chargeback for suspicious/fraud txn issue
+DC - Payment Transaction | TCS deduction | L2C: TCS deduction issue
+DC - Payment Transaction | Transaction Failed | Informed about failed reasons
+DC - Payment Transaction | Transaction Status Enquiry | Informed about the status
+DC - Payment Transaction | Txn failed money debited | L2C: Txn failed issue
+DC - Payment Transaction | Txn in processing | L2J: Txn in processing issue
+DC - Payment Transaction | Unable to Initiate txn | L2J: Unable to Initiate txn issue
+DC - Physical DC enquiry | Delivery Enquiry | Informed about AWB/courier partner details
+DC - Physical DC enquiry | Delivery Failure Enquiry | Reason for failure shared
+DC - Physical DC enquiry | Physical DC Generation enquiry | Informed about process flow
+DC - Physical DC enquiry | Reorder DC enquiry | Guided through reordering DC
+Debt Tracker-Info & Details | How to utilise debt tracker | Informed about the feature and benefits
+Debt Tracker-Usage | App is not reflecting all the loans | L2J:Loan Details missing
+Debt Tracker-Usage | App is reflecting incorrect loan details | Informed the process to update the info
+Debt Tracker-Usage | App is reflecting incorrect loan details | L2J:Incorrect Loan Details
+Debt Tracker-Usage | Unable to add / delete loan A/c | L2J:Unable to add / delete loan A/C
+"Digigold-Buy Related | Amt debited, DG not credited | Informed the user to wait for TAT"
+"Digigold-Buy Related | Amt debited, DG not credited | L2C: Digital gold not credited issue"
+"Digigold-Buy Related | Amt debited, DG not credited | L2J: Digital gold not credited issue"
+"Digigold-Buy Related | Amt not debited, buy txn failing | L2J: Digital gold txn failed issue"
+"Digigold-Buy Related | Jewels debited, DG not credited | Informed the user to wait for TAT"
+"Digigold-Buy Related | Jewels debited, DG not credited | L2J: Digital gold not credited issue"
+Digigold-Buy Related | Mismatch in order value and DG credited | L2C: Digital gold wrong quantity credited issue
+Digigold-Conversion | Unable to convert Jewels to DG | Informed Jwls can be redeemed later
+Digigold-Conversion | Unable to convert Jewels to DG | L2J: Converting Jwls to DigiGold issue
+Digigold-Habits | How to modify/cancel/ set up DG Habits | Guided with process
+Digigold-Habits | Unable to cancel habits | L2J: Unable to cancel Habits
+Digigold-Habits | Unable to pause / modify Habits | L2J: Unable to pause / modify Habits
+Digigold-Habits | Unable to set up Habits | L2J: Unable to set up Habits
+Digigold-Info & Details | How to obtain DG | Informed about buy / sell / Jewel redemption to DG
+Digigold-Info & Details | How to sell DG | Informed process of selling DG
+Digigold-Info & Details | What is the current Gold price? | Informed about current Gold Price
+"Digigold-Sell Related | DG sold, amt not credited | Informed the user to wait for TAT"
+"Digigold-Sell Related | DG sold, amt not credited | L2C: Sold DG, amt not credited"
+"Digigold-Sell Related | DG sold, amt not credited | L2J: Sold DG, amt not credited"
+Digigold-Sell Related | Unable to sell DG | L2J: Selling DigiGold issue
+Digigold-SIP | How to cancel SIP | Informed the process to cancel SIP
+Digigold-SIP | How to modify DG SIP | Informed the process for SIP modification
+Digigold-SIP | How to set up SIP | Informed the process to set up SIP
+Digigold-SIP | Unable to cancel/set up SIP | L2J: Unable to cancel SIP
+Digigold-SIP | Unable to cancel/set up SIP | L2J: Unable to set up SIP
+Digigold-SIP | Unable to pause / modify SIP | L2J: Unable to pause / modify SIP
+Edge Card-Info&Details | Enquiry about CSB CC | Routed to CSB Support
+Edge Card-Info&Details | Enquiry about Federal CC | Routed to Federal Credit Card Support
+Edge VISA | Account Related | Bill autopay set up enquiry
+Edge VISA | Account Related | Block card related enquiry
+Edge VISA | Account Related | Cancel/Pause/Resume subscription related enquiry
+Edge VISA | Account Related | Close card related enquiry
+Edge VISA | Account Related | Edge Card PIN related enquiry
+Edge VISA | Account Related | L2J: App crashing issue
+Edge VISA | Account Related | L2J: Bill autopay set up related issue
+Edge VISA | Account Related | L2J: Block card related issue
+Edge VISA | Account Related | L2J: Cancel/Pause/Resume subscription related issue
+Edge VISA | Account Related | L2J: Close card related issue
+Edge VISA | Account Related | L2J: Managing transaction related issue
+Edge VISA | Account Related | L2J: Tokenization related issue
+Edge VISA | Account Related | L2J: Txn autopay set up related issue
+Edge VISA | Account Related | Managing transaction related enquiry
+Edge VISA | Account Related | New feature request
+Edge VISA | Account Related | NPA related query
+Edge VISA | Account Related | Reverse NPA related query
+Edge VISA | Account Related | Tokenization enquiry
+Edge VISA | Account Related | Txn autopay set up related enquiry
+Edge VISA | Bills and Payment | Bill Cycle Change enquiry
+Edge VISA | Bills and Payment | Custom payment enquiry
+Edge VISA | Bills and Payment | L2C: Bill paid but not reflecting issue
+Edge VISA | Bills and Payment | L2J: Bill Dispute issue
+Edge VISA | Bills and Payment | L2J: Bill payment failing issue
+Edge VISA | Bills and Payment | L2J: Statement dispute issue
+Edge VISA | Bills and Payment | L2J: Statement download issue
+Edge VISA | Bills and Payment | L2J: Waiver Request raised
+Edge VISA | Bills and Payment | Repayment Transaction Failed
+Edge VISA | Bills and Payment | Statement related enquiry
+Edge VISA | Bills and Payment | Third party payment related enquiry
+Edge VISA | Bills and Payment | Waiver enquiry
+Edge VISA | Chargeback related | L2C: Duplicate/Multiple Billing issue
+Edge VISA | Chargeback related | L2C: Failed txn issue
+Edge VISA | Chargeback related | L2C: Goods & Services not delivered issue
+Edge VISA | Chargeback related | L2C: Incorrect Transaction amount issue
+Edge VISA | Chargeback related | L2C: Recurring transaction issue
+Edge VISA | Chargeback related | L2C: Refund for Goods & Services not received issue
+Edge VISA | Chargeback related | L2C: Unauthorized Transaction issue
+Edge VISA | Charges & Terms | Fee and Charges enquiry
+Edge VISA | Charges & Terms | Forex Charges related inquiry
+Edge VISA | Charges & Terms | Fuel surcharge related enquiry
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - Annual Fee
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - ATM withdrawal
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - Card replacement fee
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - Forex charges
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - Fuel Surcharge
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - LPC & Interests
+Edge VISA | Charges & Terms | L2J: Incorrect Fee charged - Rewards
+Edge VISA | Charges & Terms | Life time free charges enquiry
+Edge VISA | Charges & Terms | LPC & Interest related enquiry
+Edge VISA | Info and details | Call drop related
+Edge VISA | Info and details | Card benefits enquiry
+Edge VISA | Info and details | Credit Score related enquiry
+Edge VISA | Info and details | EMI related enquiry
+Edge VISA | Info and details | Interest Related Inquiry
+Edge VISA | Info and details | Routed to Rupay
+Edge VISA | Info and details | Rupay Card Enquiry
+Edge VISA | Info and details | Support related enquiry
+Edge VISA | Onboarding | Approved limit enquiry
+Edge VISA | Onboarding | Card cancellation enquiry - Delayed activation
+Edge VISA | Onboarding | Eligibility - Application declined enquiry
+Edge VISA | Onboarding | Eligibility - Reapplication enquiry
+Edge VISA | Onboarding | Eligibility - Unable to see Edge Card enquiry
+Edge VISA | Onboarding | KYC - Agent Not Available enquiry
+Edge VISA | Onboarding | KYC - DoB Mismatch related enquiry
+Edge VISA | Onboarding | KYC - Father's name mismatch enquiry
+Edge VISA | Onboarding | KYC - L2C: Agent Behaviour issue
+Edge VISA | Onboarding | KYC - L2C: Auditor rejected issues
+Edge VISA | Onboarding | KYC - L2C: Status related issue
+Edge VISA | Onboarding | KYC - L2J: Device Issue / Screen Issue
+Edge VISA | Onboarding | KYC - L2J: Network Issue
+Edge VISA | Onboarding | KYC - L2J: Technical/Device related issue
+Edge VISA | Onboarding | KYC - L2J: Webview link issue
+Edge VISA | Onboarding | KYC - Language related enquiry
+Edge VISA | Onboarding | KYC - Pan card related enquiry
+Edge VISA | Onboarding | KYC - Status Related enquiry
+Edge VISA | Onboarding | L2J: Activation OTP related issue
+Edge VISA | Onboarding | L2J: Approved limit related issue
+Edge VISA | Onboarding | L2J: Card details not visible issue
+Edge VISA | Onboarding | L2J: Eligibility related issue
+Edge VISA | Onboarding | L2J: Enabling txn channels after issuance
+Edge VISA | Onboarding | Permission related enquiry
+Edge VISA | Onboarding | Set up/Activation - Set up enquiry
+Edge VISA | Physical Card | Edge Card Delivery Enquiry
+Edge VISA | Physical Card | Edge Card Set up inquiry
+Edge VISA | Physical Card | L2C: Damaged/Broken card recieved issue
+Edge VISA | Physical Card | L2C: Edge Card Delivery issue
+Edge VISA | Physical Card | L2J: Card details not visible issue
+Edge VISA | Physical Card | L2J: Edge Card Address related issue
+Edge VISA | Physical Card | L2J: Edge Card Set up issue
+Edge VISA | Physical Card | L2J: Physical card application failure
+Edge VISA | Physical Card | L2J: QR code related issue
+Edge VISA | Physical Card | L2J: Tracking details unavailable issue
+Edge VISA | Physical Card | Phone number/address change enquiry
+Edge VISA | Physical Card | Re-Order Edge Card inquiry
+Edge VISA | Rewards | Auto renew enquiry
+Edge VISA | Rewards | Booster related enquiry
+Edge VISA | Rewards | L2J: Booster pack related issue
+Edge VISA | Rewards | L2J: Did not receive Jewels issue
+Edge VISA | Rewards | L2J: New CVP Live- Booster Pack Charges not refunded
+Edge VISA | Rewards | L2J: Pack cancellation request raised
+Edge VISA | Rewards | L2J: Pack technical issue
+Edge VISA | Rewards | L2J: Redeemed but Jewels not credited issue
+Edge VISA | Rewards | L2J: Top merchant related issue
+Edge VISA | Rewards | L2J: Unable to redeem Jewels issue
+Edge VISA | Rewards | Lounge related query
+Edge VISA | Rewards | Merchant related enquiry
+Edge VISA | Rewards | New CVP Construct Inquiry
+Edge VISA | Rewards | Pack cancellation enquiry
+Edge VISA | Rewards | Program enquiry
+Edge VISA | Rewards | Top merchant related enquiry
+Edge VISA | Txn_Offline_incoming | L2C: Refund related issue
+Edge VISA | Txn_Offline_incoming | L2C: Reversal related issue
+Edge VISA | Txn_Offline_incoming | Refund related enquiry
+Edge VISA | Txn_Offline_incoming | Reversal related enquiry
+Edge VISA | Txn_Offline_outgoing | ATM withdrawal related enquiry
+Edge VISA | Txn_Offline_outgoing | Fraud and Suspicious transaction enquiry
+Edge VISA | Txn_Offline_outgoing | Inelligible Merchant related enquiry
+Edge VISA | Txn_Offline_outgoing | L2J: Card not working at ATM issue
+Edge VISA | Txn_Offline_outgoing | L2J: Card not working at POS issue
+Edge VISA | Txn_Offline_outgoing | L2J: Card stuck at ATM related issue
+Edge VISA | Txn_Offline_outgoing | L2J: No Cash dispensed issue
+Edge VISA | Txn_Offline_outgoing | L2J: Partial Cash withdrawal issue
+Edge VISA | Txn_Offline_outgoing | L2J: Transaction failure issue
+Edge VISA | Txn_Offline_outgoing | L2J: Transaction PIN related issue
+Edge VISA | Txn_Offline_outgoing | Transaction failure enquiry
+Edge VISA | Txn_Offline_outgoing | Transaction PIN related enquiry
+Edge VISA | Txn_Offline_outgoing | Transcation status enquiry
+Edge VISA | Txn_Online_incoming | Fraud and Suspicious transaction enquiry
+Edge VISA | Txn_Online_incoming | Fraud decline transaction enquiry
+Edge VISA | Txn_Online_incoming | L2C: Refund related issue
+Edge VISA | Txn_Online_incoming | L2C: Reversal related issue
+Edge VISA | Txn_Online_incoming | Refund related enquiry
+Edge VISA | Txn_Online_incoming | Reversal related enquiry
+Edge VISA | Txn_Online_outgoing | Fraud and Suspicious transaction enquiry
+Edge VISA | Txn_Online_outgoing | Fraud decline transaction enquiry
+Edge VISA | Txn_Online_outgoing | Inelligible Merchant related enquiry
+Edge VISA | Txn_Online_outgoing | L2J: Transaction failure issue
+Edge VISA | Txn_Online_outgoing | L2J: Transaction OTP not received issue
+Edge VISA | Txn_Online_outgoing | Transaction failure enquiry
+Edge VISA | Txn_Online_outgoing | Transaction failure- not visible
+Edge VISA | Txn_Online_outgoing | Transaction OTP not received enquiry
+Edge VISA | Txn_Online_outgoing | Transcation status enquiry
+External CC Tracking-Info& Details | How to start CC tracking | Informed about the feature
+External CC Tracking-Usage | CC spends are incorrectly categarised | Taken feedback for incorrect spends cat
+External CC Tracking-Usage | How to edit Email ID | Informed about email id change
+External CC Tracking-Usage | How to pause/resume CC tracking | Informed about pause / resume tracking
+External CC Tracking-Usage | Incorrect CC fetched | Informed to update app
+External CC Tracking-Usage | Incorrect CC fetched | L2J: Incorrect details fetched
+External CC Tracking-Usage | Unable to click on CTA | Informed to update app
+External CC Tracking-Usage | Unable to click on CTA | L2J: Technical Issues
+External CC Tracking-Usage | Unable to fetch Gmail A/C | Informed to retry later
+External CC Tracking-Usage | Unable to find my CC | Informed to update app
+External CC Tracking-Usage | Unable to find my CC | L2J: Card not showing up
+FD-Info&Details | Creation Issue | Asked to share error details
+FD-Info&Details | Creation Issue | L2C: Creation failed (amt debited) issue
+FD-Info&Details | Creation Issue | L2J: Creation failed (amt not debited) issue
+FD-Info&Details | How to create FD | Guided with process
+FD-Info&Details | How to withdraw FD | Guided with process
+FD-Info&Details | Unable to create FD | L2J: Unable to create FD Issue
+FD-Usage | Deposit Certificate not recieved | L2C: Receiving deposit certificate issue
+FD-Usage | Form 16 not recieved | L2C: Receiving form 16 issue
+FD-Usage | How to obtain Deposit Certificate | Informed cert will be sent on email
+FD-Usage | How to obtain Form 16 | Guided the process for Form 16
+FD-Usage | How to obtain Interest Certificate | Informed cert will be sent on email quarterly
+FD-Usage | How to obtain TDS Certificate | Informed cert will be sent on email quarterly
+FD-Usage | Interest Certificate not recieved | L2C: Receiving interest certificate issue
+FD-Usage | Recieved incorrect withdrawal amount | Informed the reason
+FD-Usage | Recieved incorrect withdrawal amount | L2C: Incorrect amt credited issue
+FD-Usage | TDS Certificate not recieved | L2C: Receiving TDS certificate issue
+FD-Usage | Unable to renew FD | L2J: Unable to renew
+FD-Usage | Unable to withdraw | Asked for error details
+FD-Usage | Unable to withdraw | L2C: Amount not recieved within TAT
+FD-Usage | Unable to withdraw | L2J: Withdrawal tech issue
+FD-Usage | When will FD mature | Informed about maturity date
+FD-Usage | Why is my FD renewed | Informed auto renewal was turned on
+FD-Usage | Withdrawal is failing | L2J: Withdrawal failed issue
+Fed SA-VKYC - Info & Details | ePAN process enquiry | Process not available
+Fed SA-VKYC - Info & Details | Freeze related | Educated about the error code
+Fed SA-VKYC - Info & Details | Offline KYC Enquiry | Process not available
+Fed SA-VKYC - Info & Details | Process Enquiry | Educated about VKYC process
+Fed SA-VKYC - Info & Details | Redo VKYC Process Enquiry | Educated about Redo VKYC process
+Fed SA-VKYC - VKYC Completed but Status Not Updated | A/c frozen_L2C: Bal transfer request | Escalated to Tech
+Fed SA-VKYC - VKYC Completed but Status Not Updated | L2J: Redo VKYC | Escalated to Tech
+Fed SA-VKYC - VKYC Completed but Status Not Updated | L2J: Status not updated | Escalated to Tech
+Fed SA-VKYC - VKYC Completed but Status Not Updated | Within wait time | Asked to wait till 72 hours
+Fed SA-VKYC - VKYC Started but Not Completed | AADHAR_PHOTO_MATCH_PER_LOW | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | ACCOUNT_OPENING_ATTEMPT_FOREIGN | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | Agent Not Available | Asked to retry later
+Fed SA-VKYC - VKYC Started but Not Completed | AGENT_CAMERA_MIC_ACCESS_ISSUE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | AGENT_DISCONNECTED | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | AUDIO_RELATED_ISSUE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | Auditor Rejected | Other Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | Auditor Rejected | Other Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | BLACK_SCREEN_ISSUE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CALL_DURATION_TIMEOUT | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CAMERA_RELATED_ISSUE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_ADDRESS_EMAIL_LOCATION_MISMATCH | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_BEHAVIOUR_ISSUES | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_DEAF_DUMB_BLIND | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_DISCONNECTED | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_DISCONNECTED_ON_AGENT_SIDE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_FATHER_MOTHER_NAME_MISMATCH | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_HAS_E-PAN_SOFTCOPY_DIGILOCKER | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_IS_FRAUDULENT | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_PEN_PAPER_ISSUE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_UNABLE_HEAR_AGENT | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTOMER_WILL_RECALL | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | CUSTsaMER_UNAWARE_ABOUT_VKYC | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | DOB_MISMATCH | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | DUPLICATE_INVALID_TAMPERED_PAN | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | ECHO_ISSUE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | FORGED_KYC_DOCUMENTS | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | Income mismatch | Asked to retry later
+Fed SA-VKYC - VKYC Started but Not Completed | INCOMPATIBLE_CUSTOMER_DEVICE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | INVALID_DATA | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | INVOLVEMENT_THIRD_PARTY | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | L2J: LOCATION_OUTSIDE_INDIA | Escalated to Tech
+Fed SA-VKYC - VKYC Started but Not Completed | L2J: Something snapped issue | Escalated to Tech
+Fed SA-VKYC - VKYC Started but Not Completed | L2J: Webview link issue | Escalated to Tech
+Fed SA-VKYC - VKYC Started but Not Completed | LANGUAGE_BARRIER | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | OTHER | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | Other VKYC Related Issues | Other Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | PAN_OCR_CAPTURE_FAILED | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | PAN_PHOTO_MATCH_PER_LOW | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | PAN_SIGNATURE_CAPTURING_FAILED | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | PHOTO_UNABLE_TO_DETERMINE | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | RE_NEGATIVE_LIST_BLOCK | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | USER_FACE_NOT_VISIBLE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | USER_INTERNET_WEAK | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | USER_NOT_AUDIBLE | Soft Reject - Asked to Retry
+Fed SA-VKYC - VKYC Started but Not Completed | USER_UNABLE_TO_FOLLOW_INSTRUCTIONS | Hard Reject - Cannot Retry
+Fed SA-VKYC - VKYC Started but Not Completed | USER_WITHOUT_PAN | Soft Reject - Asked to Retry
+GC-GC Redemption | Unable to redeem GC | L2C: Gift card Redemption issue
+Insights-Info&Details | How are txns categarised | Informed about transactions cat
+Insights-Info&Details | How to utilise Insights | Informed about the feature
+LAMF-Active Loan | Charges for changing my registered bank account | Informed about mandate reg fees
+LAMF-Active Loan | Completed my application but I am unable to see my limit | L2C: completed my application but I am unable to see my limit
+LAMF-Active Loan | Completed my line enhancement application but my limit has not increased | L2C: completed my line enhancement application but limit has not increased
+LAMF-Active Loan | How can I foreclose the loan | Informed the process
+LAMF-Active Loan | How can I foreclose the loan | L2C: Unable to foreclose
+LAMF-Active Loan | How do I pay my interest manually | Informed the steps
+LAMF-Active Loan | How to change my registered bank Account | Informed the process
+LAMF-Active Loan | How to change my registered bank Account | L2C: Reg bank account change
+LAMF-Active Loan | How to make a repayment | Informed the process
+LAMF-Active Loan | How to remove lien | Informed the process
+LAMF-Active Loan | How to submit a withdrawal request | Informed the process
+LAMF-Active Loan | How will my interest be deducted | Informed auto debit from reg bank a/c
+LAMF-Active Loan | I have been charged incorrect processing fee | L2C: Charged incorrect processing fee
+LAMF-Active Loan | Incorrect Bounce Charges levied | L2C: charged incorrect Bounce Charges
+LAMF-Active Loan | Incorrect Interest levied | L2C: Charged incorrect interest fee
+LAMF-Active Loan | Incorrect Penal Interest levied | L2C: Charged incorrect Penal interest
+LAMF-Active Loan | Loan amount not matching with market value | Informed to pledge additional portfolio/repay shortfall amt
+LAMF-Active Loan | Received a different amount than what I requested | Informed about processing fee
+LAMF-Active Loan | Received a different amount than what I requested | L2C: Received a different amount than what I requested
+LAMF-Active Loan | Repayment done but status not updated on Jupiter | L2C: Repayment done but status not updated on Jupiter
+LAMF-Active Loan | Repayment done but status not updated on Jupiter | Requested to wait for TAT
+LAMF-Active Loan | Unable to remove lien on my complete portfolio | Informed about TAT
+LAMF-Active Loan | Unable to remove lien on my complete portfolio | L2C: Unable to remove lien
+LAMF-Active Loan | Want to cancel withdrawal request | Infomed feature unavailable
+LAMF-Active Loan | What are bounce charges | Informed about insufficient balance
+LAMF-Active Loan | What are Overdue interest charges | Informed the charges
+LAMF-Active Loan | What are the int charges | Informed the quantum & frequency
+LAMF-Active Loan | What are the lien removal charges | Informed no charges applicable
+LAMF-Active Loan | What are the limit increase charges | Informed the amount
+LAMF-Active Loan | What are the loan foreclosure charges | Informed no foreclosure charges
+LAMF-Active Loan | What is penal interest | Informed int / principal payment is overdue
+LAMF-Active Loan | What is the processing fee | Informed about the charge
+LAMF-Active Loan | When will my interest be deducted | Informed the timelines
+LAMF-Active Loan | When will my processing fee be deducted | Informed fee is deducted during 1st withdrawal/mandate
+LAMF-Active Loan | Where can I check the reg bank A/C | Informed the process & current bank a/c
+LAMF-Active Loan | Why are my funds lien marked | Informed the reason
+LAMF-Active Loan | Why is my int rate changed | Informed it is in accordance with Repo Rate
+LAMF-Active Loan | Why is my int rate changed | L2C: Interest rate change related
+LAMF-Active Loan | Withdrawal has not yet been settled | L2C: Withdrawal has not yet been settled
+LAMF-Active Loan | Withdrawal has not yet been settled | Requested to wait for TAT
+"LAMF-Active Loan | Withdrawal is marked as settled, but money not received | L2C: withdrawal is marked as settled, but money not received"
+"LAMF-Active Loan | Withdrawal is marked as settled, but money not received | Requested to wait for TAT"
+LAMF-Application Process | Application blocked due to Aadhar PAN mismatch | L2C: Application Blocked
+LAMF-Application Process | Application blocked post KYC completion | L2C: Application Blocked
+LAMF-Application Process | Dispute on Eligibility Limit/ Value Shown | L2J: Dispute on Eligibility Limit/ Value Shown
+LAMF-Application Process | Entered OTP for agreement completion still stuck on same page | L2C:Entered OTP for agreement completion still stuck on same page
+LAMF-Application Process | How to apply | Informed the process
+LAMF-Application Process | KYC-Unable to get OTP | Informed number should be linked to AAdhar & active
+LAMF-Application Process | KYC-Unable to get OTP | Informed to retry later / good network
+LAMF-Application Process | KYC-Unable to get OTP | L2C: Aadhar OTP not recieved
+LAMF-Application Process | KYC-Unable to verify Pan Card | Informed to check for capital letters
+LAMF-Application Process | KYC-Unable to verify Pan Card | L2C: Unable to verify Pan Card
+LAMF-Application Process | Not getting the OTP to complete my agreement | Informed about pre - requisites
+LAMF-Application Process | Not getting the OTP to complete my agreement | L2C: Not getting the OTP to complete my agreement
+LAMF-Application Process | Partial details have been fetched | Informed to fetch details from kfintech & CAMS
+LAMF-Application Process | Partial details have been fetched | Informed to retry with reg phone number
+LAMF-Application Process | Partial details have been fetched | Informed we dont support Demat A/c
+LAMF-Application Process | Partial details have been fetched | L2C: Complete Portfolio not visible
+LAMF-Application Process | Pledging-Unable to get OTP | Informed number should be active
+LAMF-Application Process | Pledging-Unable to get OTP | Informed to retry later / good network
+LAMF-Application Process | Pledging-Unable to get OTP | L2C: OTP Related Issues
+LAMF-Application Process | Status not updated in Jupiter | L2C: Bank confirmed registration but Jupter status not updated
+LAMF-Application Process | Unable to check eligibility | L2J: Eligibility page Techissue
+LAMF-Application Process | Unable to fetch details | L2C: Unable to fetch
+LAMF-Application Process | Unable to fetch details | Unable to fetch details using Email ID
+LAMF-Application Process | Unable to fetch details | Unable to fetch details using Pan Card
+LAMF-Application Process | Unable to fetch details | Unable to fetch details using Phone Number
+LAMF-Application Process | Unable to fetch portfolio | Informed the reason
+LAMF-Application Process | Unable to fetch portfolio | L2C: Unable to fetch portfolio
+"LAMF-Application Process | Unable to get OTP for registeration | Informed to ensure number is active,has a good network"
+LAMF-Application Process | Unable to get OTP for registeration | L2C: OTP not received on Email/Mobile
+LAMF-Application Process | Unable to register bank mandate during registration | Informed to enter alternate bank a/c
+LAMF-Application Process | Unable to register bank mandate during registration | Informed to enter correct IFSC code
+LAMF-Application Process | Unable to register bank mandate during registration | L2C: Unable to register bank mandate
+LAMF-Application Process | Unable to verify my bank account during registration | Informed for activation / enetring corret details
+LAMF-Application Process | Unable to verify my bank account during registration | Informed to enter alternate bank a/c
+LAMF-Application Process | Unable to verify my bank account during registration | L2C: Unable to verify bank A/C
+LAMF-Application Process | Want to add / remove / change the funds that I want to pledge | Informed the process
+LAMF-Application Process | What is mentioned in the agreement | Informed about the agreement details
+LAMF-NOC | NOC for active loan | Informed to wait for TAT
+LAMF-NOC | NOC for active loan | L2C: Didnt recieve NOC
+LAMF-NOC | NOC for inactive loan | Informed the process
+LAMF-Others | Others | Others
+LAMF-Product Enquiries | How to utilise LAMF | Informed about the usage
+LAMF-Product Enquiries | What are the charges applicable | Informed about the applicable charges
+LAMF-Product Enquiries | What is my approved limit | Informed the approved limit
+LAMF-Product Enquiries | What is my eligibility | Informed if the user is eligible or not
+Loan - Application Related | EMI Date selection related | General inquiry - Info given
+Loan - Application Related | eNACH AutoPay Setup | Bank Not Supported for eNACH
+Loan - Application Related | eNACH AutoPay Setup | Failed - Account Name Mismatch
+Loan - Application Related | eNACH AutoPay Setup | Failed - Frozen Account
+Loan - Application Related | eNACH AutoPay Setup | Failed - Incorrect Bank Details
+Loan - Application Related | eNACH AutoPay Setup | Reciepient account is inactive
+"Loan - Application Related | eNACH AutoPay Setup | Successful - Informed about next step, disbursement"
+Loan - Application Related | Feature related enquiry for loans | Cancel my loan
+Loan - Application Related | Feature related enquiry for loans | Change of repayment date via app
+Loan - Application Related | Feature related enquiry for loans | Download NOC via app
+Loan - Application Related | Feature related enquiry for loans | Other features
+Loan - Application Related | L2J: Account Verification issue | Escalated to Tech to Cure the Journey
+Loan - Application Related | L2J: Disputes related to Risk Rejection | Escalated to Tech
+Loan - Application Related | L2J: EMI Date selection related | Unable to change repayment date - Escalated to Tech
+Loan - Application Related | L2J: Loan attached Insurance related issue | Escalated to Tech
+Loan - Application Related | L2J: Regarding promotional comms | Escalated to Tech for User Id to be removed from list
+Loan - Application Related | L2J: Unable to setup AutoPay | Escalated to Tech
+Loan - Application Related | L2J: Unable to setup eNACH | Escalated to Tech
+Loan - Application Related | Loan attached Insurance related | Cancellation related - routed to merchant
+Loan - Application Related | Loan attached Insurance related | General inquiry - Info given
+Loan - Application Related | Regarding promotional comms | Info given
+Loan - Application Related | Risk Rejection related | Redirect to app to check further
+Loan - Application Related | VKYC Related Issues | Hard Reject - Cannot Retry
+Loan - Application Related | VKYC Related Issues | Other error codes
+Loan - Application Related | VKYC Related Issues | Soft Reject - Asked to Retry
+Loan - Disbursement | Disbursement Failed | Asked for more details
+Loan - Disbursement | Disbursement Failed | Failed - Account Name Mismatch
+Loan - Disbursement | Disbursement Failed | Failed - Inactive or Frozen Account
+Loan - Disbursement | Disbursement Failed | Others - Technical issue
+Loan - Disbursement | Disbursement stuck in processing | Within 24 hours - Asked to wait
+Loan - Disbursement | L2J: Disbursement is stuck in processing | Escalated to Tech
+Loan - Disbursement | Loan Cancellation Request | After 3 days - educated the steps
+Loan - Disbursement | Loan Cancellation Request | Within 3 days - educated the steps
+Loan - Eligibility Related | Need higher amount | Redirect to app to check limit
+Loan - Eligibility Related | Unable to apply | Redirect to app to check eligibility
+Loan - Repayment | Customer is unable to repay | Financial Hardship
+Loan - Repayment | Customer is unable to repay | Technical Issues
+Loan - Repayment | CX anxious about repayment settlement | Repayment received - within 24 hours asked to wait
+Loan - Repayment | CX asked to waive off fees | Option not available
+Loan - Repayment | CX unable to do manual repayment | Asked for more details
+Loan - Repayment | Early payment related | How to pay EMI early - educated the steps
+Loan - Repayment | L2C: Collections - Behavior issue | Escalated to Collections for review
+Loan - Repayment | L2C: Collections - Cx unable to repay | Escalated to Collections for review
+Loan - Repayment | L2C: Collections - Cx want more time | Escalated to Collections for review
+Loan - Repayment | L2J: Autopay failure issues | Escalated to Tech
+Loan - Repayment | L2J: Deceased User | Escalated to Collections for review
+Loan - Repayment | L2J: Early payment related | Unable to pay EMI early - Escalated to Tech
+Loan - Repayment | L2J: Manual repayment issue | Escalated to Tech
+Loan - Repayment | L2J: Partial SI related issue | Escalated to Tech
+Loan - Repayment | L2J: Repayment related issues | After wait time - Escalated to Tech
+Loan - Repayment | L2J: Repayment related issues | Escalated to Tech
+Loan - Repayment | L2J: Repayment related issues | Escalated to Tech - Unable to convert into EMI
+Loan - Repayment | L2J: Transaction Stuck in Progress/Processing issue | After wait time - Escalated to Tech
+Loan - Repayment | Loan Top-Up/Repeat related enquiry | Redirect to app to check further
+Loan - Repayment | Partial SI related enquiry | Balance repayment related
+Loan - Repayment | Partial SI related enquiry | Charges related
+Loan - Repayment | Pre-payment charges related enquiry | Informed about Pre-payment charges
+Loan - Repayment | Repayment related enquiry | Can I change my repayment date?
+Loan - Repayment | Repayment related enquiry | Difference in EMI amount
+Loan - Repayment | Repayment related enquiry | Double debit related enquiry
+Loan - Repayment | Repayment related enquiry | How to convert Loan into EMI?
+Loan - Repayment | Repayment related enquiry | What is my repayment date?
+Loan - Repayment | Transaction Stuck in Progress/Processing enquiry | Within 24 hours - asked to wait
+Loan - Servicing | Bureau Related enquiries | TAT shared - CX needs to wait
+Loan - Servicing | L2C: Bureau Reporting Issues | Escalated to Partner
+Loan - Servicing | L2C: NOC Request | Request raised with partner
+Loan - Servicing | L2J: Bureau Reporting Issues | Escalated to Tech
+Loan - Servicing | L2J: NOC Request | Request raised to Tech
+Loan - Servicing | Loan Account Details | Need Loan agreement - Shared with the customer
+Loan - Servicing | Loan Account Details | Need SoA (Statement of Account) - currently unavailable
+Loan - Servicing | Loan Account Details | Need the RoI details - Shared with the customer
+Loan - Servicing | Loan Top-Up/Repeat related enquiry | Redirect to app to check further
+Loan - Servicing | NOC Request | NOC shared
+Loan - Servicing | NOC Request | Settled Loan - NOC cannot be provided
+Loan VKYC - KYC issue | Agent Not Available Issue | Asked for more details
+Loan VKYC - KYC issue | Agent Not Available Issue | Asked to retry
+Loan VKYC - KYC issue | Agent Not Available Issue | L2J: Need to escalate
+Loan VKYC - KYC issue | Device Issue / Screen Issue | Asked for more details
+Loan VKYC - KYC issue | Device Issue / Screen Issue | Asked to retry
+Loan VKYC - KYC issue | Device Issue / Screen Issue | L2J: Need to escalate
+Loan VKYC - KYC issue | Disbursement related issue | Asked for more details
+Loan VKYC - KYC issue | Disbursement related issue | Asked to retry
+Loan VKYC - KYC issue | Disbursement related issue | L2J: Need to escalate
+Loan VKYC - Pan Card Issue | Call Drop Related | Call Drop
+Loan VKYC - Pan Card Issue | DoB mismatch | NSDL Correction needed
+Loan VKYC - Pan Card Issue | Duplicate / Tampered card | Not valid
+Loan VKYC - Pan Card Issue | ePAN related | Not valid
+Loan VKYC - Pan Card Issue | Father's name mismatch | NSDL Correction needed
+Loan VKYC - Process Enquiry | General Enquiry | Info given
+Loan VKYC - Process Enquiry | How to do VKYC | Info given
+"Loan VKYC - Process Enquiry | How to enable mic, camera etc | Info given"
+Loan VKYC - Process Enquiry | Offline KYC Enquiry | Not available
+Loan VKYC - VKYC Completed but Status Not Updated | After wait time | L2J: Need to escalate
+Loan VKYC - VKYC Completed but Status Not Updated | CUSTOMER_ADDRESS_MISMATCH | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | CUSTOMER_DISCONNECTED | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | CUSTOMER_NAME_MISMATCH | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | CUSTOMER_UNAWARE_ABOUT_VKYC | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | DOB_MISMATCH | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | DUPLICATE_INVALID_TAMPERED_PAN | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | INCOMPATIBLE_CUSTOMER_DEVICE | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | INVOLVEMENT_THIRD_PARTY | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | LANGUAGE_BARRIER | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | MINOR_PAN | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | OTHER | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | PAN_PHOTO_MATCH_PER_LOW | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | SCRIPT_READING_BY_CUSTOMER | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | SUSPECTED_FRAUDULENT | Hard Reject - Cannot Retry
+Loan VKYC - VKYC Completed but Status Not Updated | USER_INTERNET_WEAK | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | USER_OUTSIDE_INDIA | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | USER_UNABLE_TO_FOLLOW_INSTRUCTIONS | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | USER_WITHOUT_PAN | Soft Reject - Asked to Retry
+Loan VKYC - VKYC Completed but Status Not Updated | Within wait time | Asked to wait
+Magic Spends - Info & Details | How to cancel MS | Informed MS cannot be cancelled
+Magic Spends - Info & Details | How to modify MS | Informed how to modify magic spends
+Magic Spends - Info & Details | How to pause MS | Informed how to pause magic spends
+Magic Spends - Info & Details | How to redeem DG via MS | Informed about DG redemption
+Magic Spends - Info & Details | How to redeem MF via MS | Informed about MF Redemption
+Magic Spends - Info & Details | How to resume MS | Informed how to resume magic spends
+Magic Spends - Info & Details | How to set up MS | Informed how to set up magic spends
+Magic Spends - Info & Details | How to stop MS | Informed how to stop magic spends
+"Magic Spends - Rule Related | Did a txn, MS did not execute | Informed about non-federal a/c txn not getting accounted"
+"Magic Spends - Rule Related | Did a txn, MS did not execute | Informed rule skipped due to insufficient bal"
+"Magic Spends - Rule Related | Did a txn, MS did not execute | Informed rule skipped due to limit breach enquiry"
+"Magic Spends - Rule Related | Did a txn, MS did not execute | L2C: Rule execution failure issue"
+Magic Spends - Rule Related | Tech issue while redeeming via MS | L2J: Unable to redeem Magic Spends
+Magic Spends - Rule Related | Unable to modify MS | L2C:Unable to modify MagicSpends
+Magic Spends - Rule Related | Unable to pause MS | L2C: Unable to pause MS issue
+Magic Spends - Rule Related | Unable to redeem DG | L2J: Unable to redeem gold issue
+Magic Spends - Rule Related | Unable to redeem MF | L2C: Unable to redeem MF issue
+Magic Spends - Rule Related | Unable to resume MS | L2C:Unable to resume MagicSpends
+Magic Spends - Rule Related | Unable to set up MS | L2J:Unable to set up MagicSpends
+Magic Spends - Rule Related | Unable to stop MS | L2C:Unable to stop MagicSpends
+"Mutual Funds - HKYC investor issues | A/c closed, how to redeem | Redirected to MF Central / RTA / AMC"
+"Mutual Funds - HKYC investor issues | A/c closed, redeemed money not redited | L2C: A/c closed, redeemed money not redited"
+Mutual Funds - HKYC investor issues | how to complete VKYC | Redirected to SA CS
+Mutual Funds - HKYC investor issues | Mandate status after A/C closure | Informed it will get cancelled
+Mutual Funds - HKYC investor issues | Unable to add money | Redirected to SA CS
+Mutual Funds - Info Details | Benefits | Informed about the benefits
+Mutual Funds - Info Details | Fund has been discontinued | Informed fund house has stopped the further investment
+Mutual Funds - Info Details | How to close MF account | Informed the process to redeem / cancel / alter bank a/c
+Mutual Funds - Info Details | How to download tax report | Informed the process
+Mutual Funds - Info Details | Investing terminology enquiry | Helped with the meaning
+Mutual Funds - Info Details | Why SIP/OTI min value change | Informed change is as per AMC policy
+Mutual Funds - Jupiter Portfolio | App technical issues | L2C: App Technical Issues
+Mutual Funds - Jupiter Portfolio | App technical issues | Requested to update the app
+Mutual Funds - Jupiter Portfolio | Can i invest if investment a/c is closed | Informedto start re-investing
+Mutual Funds - Jupiter Portfolio | Incorrect details shown on dashboard | Informed the reason
+Mutual Funds - Jupiter Portfolio | Incorrect details shown on dashboard | L2C: Incorrect details shown on dashboard
+Mutual Funds - Jupiter Portfolio | Incorrect fund details | Informed the reason
+Mutual Funds - Jupiter Portfolio | Incorrect fund details | L2C: Incorrect fund details
+Mutual Funds - Jupiter Portfolio | Incorrect Units alloted | Informed the reason
+Mutual Funds - Jupiter Portfolio | Incorrect Units alloted | L2C: Incorrect Units Alloted
+Mutual Funds - Jupiter Portfolio | Is investing w jupiter safe | Assured investing is absolutely safe
+Mutual Funds - Jupiter Portfolio | Recieved incorrect returns | Informed the reason
+Mutual Funds - Jupiter Portfolio | Recieved incorrect returns | L2C: Recieved incorrect returns
+Mutual Funds - Jupiter Portfolio | What will happen if my SA is closed | Investment option will be unavailable
+Mutual Funds - KYC Related | How to complete Rekyc | Informed the process
+Mutual Funds - KYC Related | How to complete SEBI KYC | Redirected to external platform
+Mutual Funds - KYC Related | Rekyc option unavilable | Redirected to SBI
+Mutual Funds - KYC Related | Why do I have to complete Rekyc | Informed the reason
+Mutual Funds - NAV Related | NAV is not updated | Informed TAT(incase of downtimes)
+Mutual Funds - NAV Related | NAV is not updated | L2C: Incorrect NAV
+Mutual Funds - Non-Jupiter portfolio | How to switch current investments to Jupiter | Informed the flow
+Mutual Funds - Non-Jupiter portfolio | How to track funds | Informed the process
+Mutual Funds - Non-Jupiter portfolio | Incorrect/Missing investment data issue | L2C: Folio data mismatch
+Mutual Funds - Non-Jupiter portfolio | Redeem process enquiry | Informed how to redeem
+Mutual Funds - Non-Jupiter portfolio | Redeem process enquiry | L2C- Redemption issue
+Mutual Funds - Non-Jupiter portfolio | Reinvest process enquiry | Informed about re-investment
+Mutual Funds - Non-Jupiter portfolio | Unable to initiate tracking | Informed to onboard with reg email ID
+Mutual Funds - Non-Jupiter portfolio | Unable to initiate tracking | L2C:Unable to initiate
+Mutual Funds - Order Rejected-Redemption | Why is my order rejected | Informed the reason and flow
+Mutual Funds - Order Rejected-Redemption | Why is my order rejected | L2C: Order Rejected
+"Mutual Funds - Order Rejected-Redemption | Why is my order rejected | L2C: Order Rejected, reason unavailable in OV"
+Mutual Funds - Order Rejected-SIP/OTI | Why is my order rejected | Informed the reason and flow
+Mutual Funds - Order Rejected-SIP/OTI | Why is my order rejected | L2C: Order Rejected
+Mutual Funds - OTI | Order not placed to AMC | L2C: Order not placed to AMC
+Mutual Funds - OTI | OTI- Cancellation | Informed option unavailable
+Mutual Funds - OTI | Payment failed but amount deducted | Informed to wait for TAT
+Mutual Funds - OTI | Payment failed but amount deducted | L2C: Payment failed but amount deducted
+Mutual Funds - OTI | Unable to add money for OTI to a fund | L2C: Unable to add money
+Mutual Funds - OTI | Unable to make OTI for a fund | Informed OTI is unavailable
+Mutual Funds - OTI | When will my units be allocated | Informed to wait for TAT
+Mutual Funds - OTI | When will my units be allocated | L2C: Units not allocated
+Mutual Funds - Redemption | Deductions on redemption | Informed about exit load
+Mutual Funds - Redemption | Does my fund have a lock in? | Informed ELSS funds have a lock-in period
+Mutual Funds - Redemption | How to redeem | Informed the process
+Mutual Funds - Redemption | Incorrect deduction | L2C: Incorrect Deduction
+Mutual Funds - Redemption | Recieved incorrect redemption credit | L2C: Incorrect Redemption credit issue
+"Mutual Funds - Redemption | Redeemed units, money not credited | Informed about TAT"
+"Mutual Funds - Redemption | Redeemed units, money not credited | L2C: Redemption amt not credited"
+Mutual Funds - Redemption | Taxes applicable while redemption | Informed no taxes are applicable
+Mutual Funds - Redemption | Why is redemption disbaled | Informed about ELSS funds
+Mutual Funds - Redemption | Why is redemption disbaled | L2C: Redemption option disbaled
+Mutual Funds - SIP | How to cancel SIP | Informed the process
+Mutual Funds - SIP | How to modify | Informed the process
+Mutual Funds - SIP | How to set up | Informed the process
+"Mutual Funds - SIP | My SIP is skipped, what do I do | Suggested to do OTI/ alternatives"
+Mutual Funds - SIP | SIP cancelled but money deducted | L2C: SIP cancelled (amt debited) issue
+Mutual Funds - SIP | SIP is incorrectly skipped | L2C: SIP Incorrectly skipped
+Mutual Funds - SIP | SIP order not placed | Informed TAT for order placement
+Mutual Funds - SIP | SIP order not placed | L2C: SIP order not placed
+"Mutual Funds - SIP | SIP skipped, amt debited | L2C: SIP Skipped but amt debited"
+Mutual Funds - SIP | Unable to cancel SIP | L2C: Unable to cancel SIP
+Mutual Funds - SIP | Unable to modify | Informed the process
+Mutual Funds - SIP | Unable to set up | Informed reason for SIP unavailability
+Mutual Funds - SIP | Unable to set up | L2C: SIP set-up option unavailable issue
+Mutual Funds - SIP | Unable to set up | L2C: Unable to set up
+Mutual Funds - SIP | When will my units be alocated | Informed about TAT
+Mutual Funds - SIP | When will my units be alocated | L2C: Units not allocated issue
+Mutual Funds - SIP | Why was my SIP skipped | Informed reason - balance shortfall
+Mutual Funds -Onbaording | How to onbaord | Informed about the flow
+Mutual Funds -Onbaording | Incorrect details captured | L2C: Incorrect details captured
+Mutual Funds -Onbaording | Rewards for onbaording | Informed about the rewards structure
+Mutual Funds -Onbaording | Unable to onbaord | L2C: Onboarding issue
+Mutual Funds-Demographic | How to change address | Redirected to MF central
+Mutual Funds-Demographic | How to change Email ID | Redirected to MF central
+Mutual Funds-Demographic | How to change nominee | Redirected to MF central
+Mutual Funds-Demographic | How to change phone number | Redirected to MF central
+Mutual Funds-Demographic | Unable to change address | L2C: Address to be updated in KRA
+Mutual Funds-Demographic | Unable to change Email ID | L2C: Email ID to be updated in KRA
+Mutual Funds-Demographic | Unable to change nominee | L2C: Nominee to be updated in KRA
+Mutual Funds-Demographic | Unable to change number | L2C: Number to be updated in KRA
+Networth-Info& Details | How to add bank a/c | Informed about account addition
+Networth-Info& Details | How to remove a/c | Informed about account deletion
+Networth-Info& Details | How to utilise Networth | Informed about the feature and benefits
+Networth-Usage | Incorrect value shown in bank balances | L2J: Incorrect bank balances shown
+Networth-Usage | Incorrect value shown in DG | L2J: Incorrect DG balance shown
+Networth-Usage | Incorrect value shown in FD | Informed abt int calculation
+Networth-Usage | Incorrect value shown in FD | L2J: Incorrect FD balance shown
+Networth-Usage | Incorrect value shown in Internal loans section | L2J: Incorrect Internal Loans value shown
+Networth-Usage | Incorrect value shown in MF | L2J: Incorrect MF balance shown
+Networth-Usage | Unable to add bank a/c | Informed about supported accounts
+Networth-Usage | Unable to add bank a/c | L2J: Unable to add bank a/c
+Networth-Usage | Unable to remove bank account | L2J: Unable to delete account
+Offers - Offer Related | Coupon Related | Informed how to apply coupon
+Offers - Offer Related | Coupon Related | L2J: Technical issues
+Offers - Offer Related | Debit Card Related | Guided with offer details
+Offers - Offer Related | Debit Card Related | Informed action is ineligible
+"Offers - Offer Related | Debit Card Related | L2J: Action performed, Jwl not credited"
+Offers - Offer Related | Debit Card Related | L2J: Technical issues
+Offers - Offer Related | Investments Related | Guided with offer details
+Offers - Offer Related | Investments Related | Informed action is ineligible
+"Offers - Offer Related | Investments Related | L2J: Action performed, Jwl not credited"
+Offers - Offer Related | Investments Related | L2J: Technical issues
+Offers - Offer Related | Onboarding Related | Guided with offer details
+Offers - Offer Related | Onboarding Related | Informed action is ineligible
+"Offers - Offer Related | Onboarding Related | L2J: Action performed, Jwl not credited"
+Offers - Offer Related | Onboarding Related | L2J: Technical issues
+Offers - Offer Related | Payments Related | Guided with offer details
+Offers - Offer Related | Payments Related | Informed action is ineligible
+"Offers - Offer Related | Payments Related | L2J: Action performed, Jwl not credited"
+Offers - Offer Related | Payments Related | L2J: Technical issues
+Offers - Offer Related | Pro/Pro Salary Related | Guided with offer details
+Offers - Offer Related | Pro/Pro Salary Related | Informed action is ineligible
+"Offers - Offer Related | Pro/Pro Salary Related | L2J: Action performed, Jwl not credited"
+Offers - Offer Related | Pro/Pro Salary Related | L2J: Technical issues
+Offers - Offer Related | TPAP Related | Guided with offer details
+Offers - Offer Related | TPAP Related | Informed action is ineligible
+"Offers - Offer Related | TPAP Related | L2J: Action performed, Jwl not credited"
+Offers - Offer Related | TPAP Related | L2J: Technical issues
+Onboarding 2.0 - Eligibility | L2C: Waitlisted/All Seats taken issue | Child ticket raised
+Onboarding 2.0 - Eligibility | Waitlisted/All Seats taken enquiry | Asked to wait
+Onboarding 2.0 - Email Verification | Email id related enquiry | Educated the steps
+Onboarding 2.0 - Email Verification | L2J: Email verification issue | Escalated to Tech
+Onboarding 2.0 - Mobile verification | L2J: Mobile Verification related issue | Escalated to Tech
+Onboarding 2.0 - Mobile verification | L2J: SMS Sending issue | Escalated to Tech
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Email could not be verified - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Looping post mpin entry - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Mobile number could not be verified - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Mobile. no could not be verified - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | OTP Not Received - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Screen Freeze on Phone Number Entry - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | SMS sending failed - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | SMS verification failed - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Something Snapped - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Something went wrong - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Stuck in Loop - T/S steps shared
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | This Device is Already Registered - T/S steps shared
+"Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Verification failed, Technical Error - T/S steps shared"
+Onboarding 2.0 - Mobile verification | Mobile Verification enquiry | Verifying mob with Federal - T/S steps shared
+Onboarding 2.0 - Pan Verification | L2J: PAN related issue | Escalated to Tech
+Onboarding 2.0 - Pan Verification | PAN related enquiry | Info given & redirected to NSDL website
+Onboarding 2.0 - SA Liveliness | L2J: Liveliness technical issue | Escalated to Tech
+Onboarding 2.0 - SA Liveliness | Liveliness rejected related enquiry | Asked to Retry
+Onboarding 2.0 - SA Liveliness | Liveliness related enquiry | Informed about Liveliness process
+Onboarding 2.0 - SA MPIN | L2J: MPIN related issue | Escalated to Tech
+Onboarding 2.0 - SA MPIN | MPIN related enquiry | Informed about MPIN
+Onboarding 2.0 - SA Onboarding | Aadhaar Not Linked to Mobile Number | Info given & redirected to UIDAI
+Onboarding 2.0 - SA Onboarding | Aadhaar PAN name mismatch enquiry | Info given & redirected to UIDAI
+Onboarding 2.0 - SA Onboarding | Aadhaar Verification related enquiry | Info given & redirected to UIDAI
+Onboarding 2.0 - SA Onboarding | Account creation error enquiry | Address Unserviceable
+Onboarding 2.0 - SA Onboarding | Account creation error enquiry | Survey Spam - Others
+Onboarding 2.0 - SA Onboarding | Account creation error enquiry | System failure
+Onboarding 2.0 - SA Onboarding | Account creation error enquiry | User registered with different number
+Onboarding 2.0 - SA Onboarding | Application rejected enquiry | non - SFEC based error
+Onboarding 2.0 - SA Onboarding | Application rejected enquiry | SFEC based error
+Onboarding 2.0 - SA Onboarding | ETB customer enquiry | Info given
+Onboarding 2.0 - SA Onboarding | Info & Details | Survey Spam - Others
+Onboarding 2.0 - SA Onboarding | L2C: Aadhaar PAN name mismatch issue | Child ticket raised
+Onboarding 2.0 - SA Onboarding | L2J: Aadhaar Not Linked to Mobile Number | Escalated to Tech
+Onboarding 2.0 - SA Onboarding | L2J: Account creation error issue | Escalated to Tech
+Onboarding 2.0 - SA Onboarding | L2J: Application rejected related issue | Escalated to Tech
+Onboarding 2.0 - SA Onboarding | L2J: ETB customer related issue | Escalated to Tech
+Other Tickets | Call back Request | Call back Request
+Other Tickets | Call Drop | Call Drop
+Other Tickets | Data deletion - Account closure | Redirected to Chat
+Other Tickets | Data Deletion | Data Deletion
+Other Tickets | Data Deletion | Data deletion
+Other Tickets | Data Deletion | Data deletion - Account closure
+Other Tickets | Duplicate ticket | Duplicate ticket
+Other Tickets | Incomplete information | Asked for complete information
+Other Tickets | Internal Employee | L2J: Raised for unmasking
+Other Tickets | Language barrier | Language barrier
+Other Tickets | New feature request | Feedback taken for Investments
+Other Tickets | New feature request | Feedback taken for Loans
+Other Tickets | New feature request | Feedback taken for Payments
+Other Tickets | New feature request | Feedback taken for PFM
+Other Tickets | New feature request | Feedback taken for Pots
+Other Tickets | New feature request | Feedback taken for Rewards
+Other Tickets | New feature request | Feedback taken for SA
+Other Tickets | Outbound Call | Outbound Call
+Other Tickets | Spam | Spam
+Other Tickets | Test Ticket | Test Ticket
+Other Tickets | Unregistered Email ID | Unregistered Email ID
+Pots-Acc Restricted | Branch denied KYC | L2C: Raised to resolve branch visit denial
+Pots-Acc Restricted | How to remove dormancy from Pots A/c | Guided with steps to lift dormancy
+"Pots-Acc Restricted | KYC completed, Dormancy not lifted | Informed to wait for 2 WD"
+"Pots-Acc Restricted | KYC completed, Dormancy not lifted | L2C: Raised to activate A/C"
+Pots-Info& Details | How to create Pot | Guided with steps
+Pots-Info& Details | How to delete Pot | Guided with steps
+Pots-Info& Details | Unable to create pot | L2J: Unable to create pot tech issue
+Pots-Pots Usage | Facing balance mistmatch issue | L2J: Escalated to resolve balance issues
+Pots-Pots Usage | How to delete Pot | Guided with steps
+Pots-Pots Usage | How to deposit money in Pots | Guided with deposit process
+Pots-Pots Usage | How to withdraw money from Pot | Guided with withdrawal process
+Pots-Pots Usage | Incoming Txn Related | L2J: Txn failed issue
+Pots-Pots Usage | Incoming Txn Related | L2J: Txn in processing issue
+"Pots-Pots Usage | Incoming Txn Related | Txn failed, informed to wait for TAT"
+"Pots-Pots Usage | Incoming Txn Related | Txn processing, informed to wait for TAT"
+Pots-Pots Usage | Outgoing Txn Related | L2J: Txn failed issue
+Pots-Pots Usage | Outgoing Txn Related | L2J: Txn in processing issue
+"Pots-Pots Usage | Outgoing Txn Related | txn processing, informed to wait for TAT"
+"Pots-Pots Usage | Unable to add money | L2J: ""Add money screen not available"" tech issue"
+"Pots-Pots Usage | Unable to add money | L2J: ""Pot does not exist"" tech issue"
+"Pots-Pots Usage | Unable to add money | L2J: ""Secondary a/c null"" tech issue"
+"Pots-Pots Usage | Unable to add money | L2J: ""Something seems to be wrong"" tech issue"
+Pots-Pots Usage | Unable to add money | L2J: Individual pot bal not updated issue
+Pots-Pots Usage | Unable to add money | L2J: Other technical issues
+Pots-Pots Usage | Unable to add money | L2J: Overall /individual pot bal not updated issue
+Pots-Pots Usage | Unable to delete Pot | L2J: Escalated to resolve deletion issues
+"Pots-Pots Usage | Unable to withdraw money | L2J: ""Screen not available"" tech issue"
+"Pots-Pots Usage | Unable to withdraw money | L2J: ""Something seems to be wrong"" tech issue"
+"Pots-Pots Usage | Unable to withdraw money | L2J: ""Trouble connecting to servers"" tech issue"
+Pots-Pots Usage | Unable to withdraw money | L2J: Individual pot bal not updated issue
+Pots-Pots Usage | Unable to withdraw money | L2J: Overall & individual pot bal not updated issue
+PRO Account - Info & Details | L2J: MAB related Issue | Escalated to Tech due to MAB discrepency
+PRO Account - Info & Details | MAB related enquiry | Educate about the MAB
+PRO Account - Info & Details | PRO Benefits related enquiry | Educate about the Benefits
+PRO Account - Status Related | Downgrade Related - How to downgrade from PRO | Educated about downgrading process
+PRO Account - Status Related | L2J: Downgrade related issue | Escalated to Tech
+PRO Account - Status Related | L2J: NRV not updated issue | Escalated to Tech
+PRO Account - Status Related | L2J: Upgrade related issue | Escalated to Tech
+PRO Account - Status Related | Renewal Related - How to renew the status | Educated about the renewal process
+PRO Account - Status Related | Upgrade Related - How to Upgrade to PRO | Educated about upgrading process
+Referral-Info& Details | How to refer for CC | Informed the process for CC Referral
+Referral-Info& Details | How to refer for SA | Informed SA Referral stopped
+Referral-Usage | How to share invite | Informed to share invite to referee
+Referral-Usage | Referred but Jewels not credited | Informed the txn eligibility criteria
+Referral-Usage | Referred but Jewels not credited | L2J: Referred Jwls not credited
+Referral-Usage | Unable to share invite | L2J:Unable to share invite
+Rewards-Info & Details | How to earn Jewels | Informed about Jewels earning
+Rewards-Info & Details | How to redeem Jewels | Informed about Jewels redemption
+Rewards-Info & Details | What is the eligibility to earn Jewels | Informed about eligibility
+"Rewards-Redemption | Jwls debited, voucher not credited | Informed the voucher details"
+"Rewards-Redemption | Jwls debited, voucher not credited | L2J: Jwls debited,voucher not credited"
+Rewards-Redemption | My Jewels were incorrectly clawed back | Informed about Refund / Return
+Rewards-Redemption | My Jewels were incorrectly clawed back | L2J: Escalated to resolve clawback issue
+"Rewards-Redemption | Redeemed Jewels, amt not credited | Informed to wait for 24 hours"
+"Rewards-Redemption | Redeemed Jewels, amt not credited | L2J: Escalated to resolve Jewel Credit issue"
+Rewards-Redemption | Unable to redeem Jewels | Informed minimum amount req for conversion
+Rewards-Redemption | Unable to redeem Jewels | L2J: Escalated to resolve redemption issue
+"Rewards-Redemption | Unable to redeem Jewels | L2J: Jwls available, unable to redeem to voucher"
+Rewards-Redemption | Unable to utilise voucher on the merchant portal | Informed to utilise voucher as per tnc
+Rewards-Redemption | Unable to utilise voucher on the merchant portal | L2C: Unable to redeem voucher
+Rewards-Redemption | Why is my Jewel balance reduced | Guided with reduction logic
+"Rewards-Rewards Earning | Did an ineligible txn, Jewels not credited | Informed the txn is ineligible"
+"Rewards-Rewards Earning | Did an ineligible txn, Jewels not credited | L2J: Escalated to resolve Jwl credit issue"
+SA recovery activity | Federal activity enquiry | Provided the information
+Salary Account - Activation | L2C: Amazon Voucher Not Received | Escalated to Internal Partner
+Salary Account - Activation | L2C: Status update pending issue | Escalated to Internal Partner
+Salary Account - Activation | L2J: Initiating conversion issue | Escalated to Tech
+Salary Account - Activation | L2J: Status update pending issue | Escalated to Tech
+Salary Account - Activation | L2J: Work email verification issue | Escalated to Tech
+"Salary Account - Activation | Official Email ID Verification Issue | Within 24 hours, asked to wait"
+"Salary Account - Activation | Pro Status Update Pending | Within 24 hours, asked to wait"
+Salary Account - Activation | Unable to Initiate Activation Process | Educated about Activation process
+Salary Account - Closure | Salary Account closure enquiry | Educated about Account Closure process
+Salary Account - Closure | Salary Account closure enquiry | Escalated to Tech
+Salary Account - Info & Details | Benefits Enquiry | Educated about the Process
+Salary Account - Info & Details | Eligibility Enquiry | Educated about the Process
+Salary Account - Info & Details | Employer Code Enquiry | Educated about the Process
+Salary Account - Info & Details | Employer Details Change | Educated about the Process
+Salary Account - Info & Details | Process Enquiry - How to upgrade | Educated about the Process
+Salary Account - Info & Details | Voucher related | Educated about the Process
+Salary Account - Usage | Insurance related enquiry - How to avail the option | Educated about the feature
+Salary Account - Usage | L2J: Insurance issues | Escalated to Tech
+Salary Account - Usage | Loan Option related enquiry - How to avail the option | Educated about the feature
+Salary Account - Usage | Other Issues | Educated about the feature
+Savings Account - A/c statement | A/c statement download issue | L2J: Account Statement download Issue
+Savings Account - A/c statement | Account statement enquiry | Informed about process flow
+Savings Account - A/c statement | Closed a/c statement enquiry | Informed about process flow
+Savings Account - A/c statement | Missing Transaction | L2J: Account Statement Issue
+Savings Account - A/c statement | Physical statement request | L2C: Escalated to receive physical statement
+Savings Account - A/c statement | Require closed a/c statement | Escalated - TAT of 3WDs
+Savings Account - Account Closure | Account Closure Deceased | Informed about deceased flow
+Savings Account - Account Closure | Account Closure Deceased | L2C : Deceased Customer
+Savings Account - Account Closure | Account closure enquiry | Account closure info provided - AFK
+Savings Account - Account Closure | Account closure enquiry | Informed about the process flow
+Savings Account - Account Closure | Account closure enquiry | L2C: Account closure
+Savings Account - Account Closure | Account closure enquiry | L2C: AMB A/c closure
+Savings Account - Account Closure | Account closure enquiry | L2C: AMC A/C Closure
+Savings Account - Account Closure | Account closure enquiry | Offline a/c closure
+Savings Account - Account Closure | Account closure enquiry | Transferred to chat
+Savings Account - Account Closure | Account closure enquiry | User Retained
+Savings Account - Account Closure | AMB closure enquiry | Informed about AMB closure process
+Savings Account - Account Closure | Bal pending enquiry | Advise to provide alt a/c details
+Savings Account - Account Closure | Bal pending issue | L2C: Raised to Demo
+Savings Account - Account Closure | DG balance pending | L2C: DG Transfer Request
+Savings Account - Account Closure | Pre requisite not met | Informed about meeting pre requisites
+Savings Account - Account Closure | Refund query | L2C: Raised to Demographics
+Savings Account - Account Closure | Reopen closed account | Informed a/c cant be reopened
+Savings Account - Account Closure | UPI Lite/ Pending charges | Informed about UPI Lite/Pending charges
+Savings Account - Account Closure | UPI Lite/ Pending charges | L2C: Pending charges
+Savings Account - Account Restricted | Fraud Risk | Routed to Cybercare
+Savings Account - Account Usage | App usage enquiry | Guided through steps
+Savings Account - Account Usage | App usage issue | L2J: App Usage escalation
+Savings Account - Account Usage | Login Issue | Asked for video/clear cache
+Savings Account - AMB related | AMB calculation Enquiry | Informed about calculation process
+Savings Account - AMB related | AMB charges Enquiry | Informed about charges
+"Savings Account - AMB related | AMB deduction enquiry | Checking internally, advised to wait"
+Savings Account - AMB related | AMB Enquiry | Informed about process flow
+Savings Account - AMB related | AMB Refund enquiry | Informed about process flow
+Savings Account - Balance related | A/c balance enquiry | Informed about process flow
+Savings Account - Balance related | Balance mismatch issue | L2C: Bal mismatch issue
+Savings Account - Balance related | Balance mismatch issue | L2J: Bal mismatch issue
+Savings Account - Balance related | Deduction related | Informed about the deducted amount
+Savings Account - Cancelled Cheque | How to get a cancelled cheque | Cancelled cheque enquiry
+Savings Account - Cancelled Cheque | Limit of Ordering/Charges | No limit/charges
+Savings Account - Cancelled Cheque | Unable to download | L2J: Cancelled cheque issue
+Savings Account - Chequebook related | Cheque deposit process | Info given about Cheque deposit
+Savings Account - Chequebook related | Cheque deposit process post TAT | L2C: cheque deposit issue
+Savings Account - Chequebook related | Cheque deposit process within TAT | Informed about TAT
+Savings Account - Chequebook related | Chequebook - 2nd request | 2nd Chequebook enquiry
+Savings Account - Chequebook related | Chequebook - 2nd request | L2C: 2nd Chequebook request
+Savings Account - Chequebook related | Chequebook cancellation | Informed about cancellation process
+Savings Account - Chequebook related | Chequebook request/charges | Informed about the process/charges
+Savings Account - Chequebook related | Chequebook RTO'd | Info given about RTO process
+Savings Account - Chequebook related | Chequebook RTO'd | L2C: Chequebook redispatch request
+Savings Account - Chequebook related | Chequebook tracking AWB available | Informed about tracking
+Savings Account - Chequebook related | Chequebook tracking AWB not available | L2C: Chequebook delivery related issue
+Savings Account - Chequebook related | Chequebook wrong delivery | L2C: Chequebook delivery related issue
+Savings Account - Chequebook related | Sealed signed statement request | L2C: Sealed statement request
+Savings Account - Chequebook related | Signature update | Informed about signature update
+"Savings Account - Chequebook related | Signature update | Journey cured,asked to retry"
+Savings Account - Chequebook related | Signature update | L2J : Signature update Issue
+Savings Account - Chequebook related | Signature upload failure issue | Informed about failure issue
+Savings Account - Chequebook related | Stop payment request | L2C: Stop payment request raised
+Savings Account - Demographics | Aadhar Change | Informed about the process
+Savings Account - Demographics | Address Change | L2C: Address Change
+Savings Account - Demographics | Address Change | L2J : Address Change
+Savings Account - Demographics | Address Change | Provided Address Change flow
+Savings Account - Demographics | Demand draft request | Informed about the process
+"Savings Account - Demographics | Discrepancy in Pots,SP,DG,MF | L2J: Updating Phone Number issue"
+Savings Account - Demographics | Email ID change | Guided through steps
+Savings Account - Demographics | Email ID change | L2J: Email ID issue
+Savings Account - Demographics | Nominee change | Feature will be available soon
+Savings Account - Demographics | Pan Change | Informed about the process
+Savings Account - Demographics | Phone number change - Aadhar related | Guided through steps
+Savings Account - Demographics | Phone number change - email verification | Guided through steps
+Savings Account - Demographics | Phone number change - mPin related | Guided through steps
+Savings Account - Demographics | Process to change phone number | Informed about pre requisites
+Savings Account - Demographics | Unregistered Email ID | Advise to contact using registered mail ID
+Savings Account - Demographics | Updating phone number issue | L2J: Phone number issue
+Savings Account - Demographics | Updating phone number issue | Old number lost-Info given
+Savings Account - Digital Passbook | How to get Digital Passbook | Informed about steps through app
+Savings Account - Digital Passbook | Limit of Ordering/Charges | No limit/charges
+Savings Account - Digital Passbook | Unable to download | L2J: Digital Passbook issue
+Savings Account - Freeze related | Dormant account | Dormant advise to visit bank
+Savings Account - Freeze related | Dormant account | Guided through steps
+Savings Account - Freeze related | Dormant account | L2C : Branch Visit Denial esc to bank
+Savings Account - Freeze related | Dormant account | L2C: Freeze not removed esc to bank
+Savings Account - Freeze related | Freeze 08 | L2C: Freeze 08 issue
+Savings Account - Freeze related | Freeze 14 - Freeze a/c | L2C: Freeze a/c
+Savings Account - Freeze related | Freeze 14 - Unfreeze a/c | L2C: Unfreeze a/c
+Savings Account - Freeze related | freeze 16 | Informed about completing ReKYC
+Savings Account - Freeze related | freeze 16 | L2C : Post TAT Branch Visit
+Savings Account - Freeze related | freeze 16 | L2C: Post TAT escalated to bank
+Savings Account - Freeze related | freeze 16 | L2J : Account Frozen
+Savings Account - Freeze related | freeze 16 | Within TAT advised to wait
+Savings Account - Freeze related | Freeze 21 | Advise to connect with branch
+Savings Account - Freeze related | Freeze 26 | Informed about visiting the branch
+Savings Account - Freeze related | Freeze 26 | L2C : Branch Visit Denial
+Savings Account - Freeze related | Freeze 51 | Routed to Cybercare
+Savings Account - Freeze related | Freeze 52 | Routed to Cybercare
+Savings Account - Freeze related | Freeze 64 | Dormant advise to visit bank
+Savings Account - Freeze related | Freeze 64 | L2C : Branch Visit Denial esc to bank
+Savings Account - Freeze related | Freeze 64 | L2C: Freeze not removed esc to bank
+Savings Account - HKYC Expired | Bal transfer | Advised to create alternate bank a/c
+Savings Account - HKYC Expired | Bal transfer | Informed about transfer status
+Savings Account - HKYC Expired | Bal transfer | L2C: Bal transfer request
+Savings Account - HKYC Expired | Disputing the balance transfered | Informed about correct amount
+Savings Account - HKYC Expired | Disputing the balance transfered | L2C: Dispute on transferred amt issue
+Savings Account - HKYC Expired | Funds are not credited(Post TAT) | L2C: Funds not credited
+Savings Account - HKYC Expired | Funds are not credited(within TAT) | Informed about UTR
+Savings Account - HKYC Expired | HKYC a/c enquiry | Informed about HKYC Limit
+Savings Account - HKYC Expired | HKYC A/c Re-open Enquiry | Informed about the process
+Savings Account - HKYC Expired | HKYC limit reached | Check if amount is in pool account
+Savings Account - HKYC Expired | No Account Closure Flag/Tag | L2C: Closure Flag/Tag
+Savings Account - Info & Details | Account details (IFSC/MICR/SWIFT/MMID) | Informed about account/branch details
+Savings Account - Info & Details | Feature/Limit/Fees & Charges enquiry | Informed about features/fees/charges
+Savings Account - IPO related | Filling IPO - Private company/Individual | Informed about process flow
+Savings Account - IPO related | IPO - enquired about txn log | Informed about process flow
+Savings Account - IPO related | IPO - funds not blocked | Informed about process flow
+Savings Account - IPO related | IPO - funds not blocked | L2C: IPO Funds Unblocking Issue
+Savings Account - IPO related | IPO - txn log issue | Informed about process flow
+Savings Account - mPin related | Error resetting MPIN through Debit Card | Informed about resetting via DC
+Savings Account - mPin related | Error resetting MPIN through Debit Card | L2J: Setting/resetting MPIN issue
+Savings Account - mPin related | Forgot/Unable to reset mPin | Guide with mPin steps
+Savings Account - mPin related | Forgot/Unable to reset mPin | L2J: Setting/resetting MPIN issue
+Savings Account - mPin related | mPin - Face matching option unavailable | Informed about process flow
+Savings Account - mPin related | mPin reset | Informed about mPin flow
+Savings Account - Nach related | Credit funds post ECS debit triggered | Funds should be available Day - 1
+Savings Account - Nach related | Credit funds post ECS debit triggered | L2C: ECS debited related issue
+Savings Account - Nach related | Dual payment | Redirected to merchant
+Savings Account - Nach related | ECS & NACH Charges & Fee | Informed about Nach charges/fees
+Savings Account - Nach related | ECS & NACH Enquiry | Informed abt ECS/NACH
+Savings Account - Nach related | NACH cancellation | Informed about Nach cancellation process
+Savings Account - Nach related | NACH cancellation | L2C: ECS & NACH cancellation request
+Savings Account - Nach related | NACH return charges applied | Informed about return charges
+Savings Account - Nach related | Nach set up | Explained the process/Redirected to merchant
+Savings Account - Nach related | Nach set up | L2C: ECS debited related issue
+Savings Account - Nach related | Offline payment | L2C: ECS debited related issue
+Savings Account - Nach related | Unaware of setting Nach | L2C: ECS debited related issue
+Savings Account - Passbook | Branch denial | L2C: Physical passbook request
+Savings Account - Passbook | How can I get a Passbook | Advise to visit branch
+"SP-Incoming txn | Txn processing, amt not credited | L2J: Txn in processing issue"
+SP-Incoming txn | Txn Related | Informed the user to wait for TAT
+SP-Incoming txn | Txn Related | L2J: Txn failed issue
+"SP-Incoming txn | Txn successfull, amt not credited | Guided the user with TAT for credit in SP"
+"SP-Incoming txn | Txn successfull, amt not credited | L2J: Amount not transferred in SP issue"
+SP-Incoming txn | Unable to deposit money | Informed reached max deposit limit
+"SP-Incoming txn | Unable to deposit money | L2J: ""Add amt screen not available"" tech issue"
+"SP-Incoming txn | Unable to deposit money | L2J: ""Deposit failed"" tech issue"
+"SP-Incoming txn | Unable to deposit money | L2J: ""Something seems to be wrong"" tech issue"
+"SP-Incoming txn | Unable to deposit money | L2J: ""Super Pot does not exist"" tech issue"
+"SP-Incoming txn | Unable to deposit money | L2J: ""System restricting from adding more"" tech issue"
+SP-Incoming txn | Unable to deposit money | L2J: Individual pot bal not updated issue
+SP-Incoming txn | Unable to deposit money | L2J: Jwls clawed back issue
+SP-Incoming txn | Unable to deposit money | L2J: Secondary a/c is null tech issue
+SP-Info & Details | Balance issues | Informed the user to wait for TAT
+SP-Info & Details | Balance issues | L2J: SP Balance Issues
+SP-Info & Details | Can I add a nominee? | Nominees can be done while creating SP only
+SP-Info & Details | How to add money to SP? | Guided with process
+SP-Info & Details | How to create/delete SP | Guided with process
+SP-Info & Details | How will int be credited | advised it will be credited to SP account
+SP-Info & Details | Int rate shown is lesser | Inform lesser int rate applicable for HKYC users
+SP-Info & Details | Unable to add nominee | L2J: Nominee Related raised to tech to check
+SP-Info & Details | Unable to create SP | L2J: unable to create issue raised to tech
+SP-Info & Details | Unable to delete SP | L2J: Unable to delete Super Pot Issue
+SP-Info & Details | Want to withdraw SP before maturity | Guided the user with early withdrawal
+SP-Info & Details | When will my SP get created? | Informed about TAT
+SP-Info & Details | When will my SP mature | Informed the date of maturity
+SP-Info & Details | Why am I charged a penalty? | Explained the reason for penalty
+SP-Info & Details | Why am I charged a penalty? | L2J: Incorrect penalty charged raised to tech for debugging
+SP-Info & Details | Will I be charged any penalty? | Advised Penlty is charged basis the Tenure
+SP-Outgoing Txn | Txn Related | L2J: Txn failed issue
+SP-Outgoing Txn | Txn Related | L2J: Txn in processing issue
+SP-Outgoing Txn | When will amount get credited? | Guided the user with withdrawal TAT
+SP-Outgoing Txn | When will amount get credited? | L2J: Amt not reflecting in savings a/c issue
+UPI - Activation | Add/change UPI ID | Guided the steps
+UPI - Activation | Mandate enquiry | Provided details regarding mandate
+UPI - Activation | Mandate issue(Post TAT) | L2J: Mandate issue raised
+UPI - Activation | Mandate issue(within TAT) | Informed about TAT
+UPI - Activation | Multiple cust ID found issue | L2C: Multiple cust ID found issue
+UPI - Activation | Set /reset UPI Pin Enquiry | Guided through steps
+UPI - Activation | Transfer limit | Informed about limit to transfer 5k
+UPI - Activation | Unable/error to reset | L2J: UPI pin related issue
+UPI - Activation | UPI ID not fetched | L2J: UPI ID not fetched
+UPI - Activation | UPI pin related issue | L2J: UPI pin related issue
+UPI - DMP | DMP cancellation | L2C: Raised with bank
+UPI - DMP | DMP post TAT | L2C: DMP Update
+UPI - DMP | DMP Update | DMP Update enquiry
+UPI - Downtime | Incoming txn | Informed about TAT
+UPI - Downtime | Outgoing TXN | Informed about TAT
+UPI - Incoming Transaction | Disputing successful txn | L2J: Disputing successful txn issue
+UPI - Incoming Transaction | Fraud and Suspicious Transaction | L2C: Escalated to bank
+UPI - Incoming Transaction | Jupiter UPI ID not recognized | Guided through steps
+UPI - Incoming Transaction | Refund Dispute | L2C: Refund dispute
+UPI - Incoming Transaction | Refund Enquiry | Informed about TAT
+UPI - Incoming Transaction | Request Money Enquiry | Guided through steps
+UPI - Incoming Transaction | Request Money Issue | L2J: Request money Issue
+UPI - Incoming Transaction | Self credit failed | L2J: Self credit failed issue
+UPI - Incoming Transaction | Self credit issue(Post TAT) | L2C: Self credit in processing issue
+UPI - Incoming Transaction | Self credit issue(within TAT) | Informed about TAT
+UPI - Incoming Transaction | Self credit success | L2J: Self credit success issue
+UPI - Incoming Transaction | Transaction Failed enquiry | Informed about status
+UPI - Incoming Transaction | Transaction Status Enquiry post TAT | L2C: Escalated to bank
+UPI - Incoming Transaction | Transaction Status Enquiry within TAT | Informed about status
+UPI - Incoming Transaction | Txn failed | L2J: Txn failed issue
+UPI - Incoming Transaction | Txn in Processing (Post TAT) | L2C: Txn in processing issue
+UPI - Incoming Transaction | Txn in Processing (within TAT) | Informed about TAT
+UPI - Incoming Transaction | Unable to Initiate P2M | Advise to contact merchant
+UPI - Incoming Transaction | Unable to Initiate P2P | L2J: Unable to initiate request
+UPI - Info & Details | Charges & Limits Enquiry | Informed about limit/charges
+UPI - Info & Details | Directed to DMP | Guide through chargeback process
+UPI - Outgoing Transaction | Amt debited twice(Post TAT) | L2C: Amt debited twice issue
+UPI - Outgoing Transaction | Amt debited twice(within TAT) | Informed about TAT
+UPI - Outgoing Transaction | Beneficiary UPI ID Enquiry | Guided through steps
+UPI - Outgoing Transaction | Beneficiary UPI ID Not found | Guided through steps
+UPI - Outgoing Transaction | Daily limit | Informed about the limit
+UPI - Outgoing Transaction | Disputing successful txn(Post TAT) | L2C: Disputing successful txn issue
+UPI - Outgoing Transaction | Disputing successful txn(within TAT) | Informed about TAT
+UPI - Outgoing Transaction | DMP cancellation | L2C: Raised with bank
+UPI - Outgoing Transaction | Failed txn(Post TAT) | L2C: Txn failed issue
+UPI - Outgoing Transaction | Failed txn(Within TAT) | Informed about TAT
+UPI - Outgoing Transaction | Goods/service not provided (Post TAT) | L2C: Chargeback for goods/service not provided issue
+UPI - Outgoing Transaction | Goods/service not provided (Within TAT) | Informed about TAT
+UPI - Outgoing Transaction | Merchant refund delay | L2C: Merchant refund delay issue
+UPI - Outgoing Transaction | Money request enquiry | Guided through steps
+UPI - Outgoing Transaction | Refund Dispute | L2C: Refund dispute
+UPI - Outgoing Transaction | Refund Enquiry(within TAT) | Informed about TAT
+UPI - Outgoing Transaction | Scan & Pay issue | L2C: Scan and pay issue
+UPI - Outgoing Transaction | Suspicious/fraud txn (Post TAT) | L2C: Chargeback for suspicious/fraud txn issue
+UPI - Outgoing Transaction | Suspicious/fraud txn(within TAT) | Informed about TAT
+UPI - Outgoing Transaction | Suspicious/fraud txn(within TAT) | L2C: Chargeback for suspicious/fraud txn issue
+UPI - Outgoing Transaction | Transaction Failed enquiry | Informed about TAT and refund
+UPI - Outgoing Transaction | Transaction Status Enquiry | Informed about TAT
+UPI - Outgoing Transaction | Txn in processing(Post TAT) | L2C: Txn in processing issue
+UPI - Outgoing Transaction | Txn in processing(within TAT) | Informed about TAT
+UPI - Outgoing Transaction | Unable to initiate txn | L2J: Unable to initiate txn issue
+UPI - Outgoing Transaction | Unblock UPI id | Informed about the process
+UPI - Outgoing Transaction | Unblock UPI id | L2C: Unblock UPI ID issue
+UPI - Outgoing Transaction | Wrong transfer(Post TAT) | L2C: Chargeback for wrong transfer issue
+UPI - Outgoing Transaction | Wrong transfer(Within TAT) | Informed about TAT
+UPI - QR code | QR Code Enquiry | Guided through steps
+UPI - QR code | QR Code Issue | L2J: QR Code Issue
+UPI - Scan & Pay | Unable to scan | L2J: Escalated
+Mutual Funds - Info Details | Nominee details | Informed the process
