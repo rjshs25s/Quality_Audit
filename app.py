@@ -113,7 +113,7 @@ def show_sidebar_stats():
 
                         by_type = this_month_df.groupby('Audit Type')['Total Score'].mean().reset_index()
                         st.markdown("**Audit Type-wise Avg Scores:**")
-                        for _, row in by_type.iterrows():
+                        for _, row in by_type.iterrows():p
                             st.markdown(f"- {row['Audit Type']}: {row['Total Score']:.2f}%")
 
                         trend = this_month_df.groupby('Audit Date')['Total Score'].mean().reset_index()
@@ -262,12 +262,12 @@ def main_form():
     # Parameters Configuration
     parameters = {
         "Opening and Closing": ["Script & Guidelines adherence", "Further Assistance", "Survey pitch", "Compliant"],
-        "Communication and Language": ["Grammar and sentence construction", "Tonality, Fluency and Rate of Speech, Timely response", 
+        "Communication and Language": ["Probing and Confirmation",","Grammar and sentence construction", "Tonality, Fluency and Rate of Speech, Timely response", 
                                     "Appropriate Language & Word Choice", "Active listening/Reading", 
-                                    "Interruption/Parallel Talk/Thread Hijacking/Spamming", "False assurance", "Compliant"],
+                                    "Interruption/Parallel Talk/Thread Hijacking/Spamming", "Compliant"],
         "Empathy and Professionalism": ["Empathy/Apology/Assurance", "Acknowledgement/Paraphrasing", "Service No", "Compliant"],
-        "Correct and Complete Resolution": ["Complete information/resolution", "Correct and accurate information/resolution", 
-                                        "Probing and Confirmation", "Compliant"],
+        "Correct and Complete Resolution": ["Complete information/resolution", "Correct and accurate information/resolution", "False assurance", 
+                                        "Compliant"],
         "Proactive Assistance": ["Proactive information", "Self help options", "Alternatives solution", "Compliant"],
         "Hold and Dead air": ["Hold script, Hold threshold, Unnecessary Hold", "Dead air/Multiple mute instances", "Compliant"],
         "Right action taken": ["Incorrect bucket utilization/movement", "Forceful Supervisor transfer", "Supervisor transfer not done",
