@@ -209,7 +209,7 @@ def main_form():
     with col1:
         queue = st.selectbox("Queue", ["Inbound", "Outbound"], key="queue")
         call_date = st.date_input("Interaction Date", key="Interaction_date")
-        df['Audit Date'] = pd.to_datetime(df['Audit Date'], errors='coerce')
+        
     with col2:
         st.text_input("Associate Name", value=st.session_state.associate_info["name"], disabled=True, key="associate_name_display")
         st.text_input("Team Lead", value=st.session_state.associate_info["tl_name"], disabled=True, key="team_lead_display")
