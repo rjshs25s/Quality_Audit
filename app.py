@@ -384,7 +384,7 @@ Resolution:
             else:
                 audit_entry = {
                     "Queue": queue,
-                    "Call Date": str(call_date),
+                    "Interaction Date": str(call_date),
                     "Calling Number": calling_number,
                     "Entity ID": entity_id,
                     "Audit Date": str(datetime.date.today()),
