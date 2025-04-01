@@ -207,7 +207,7 @@ def main_form():
     # Form Layout
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
-        queue = st.selectbox("Queue", ["Inbound", "Outbound"], key="queue")
+        queue = st.selectbox("Queue", ["Inbound", "Outbound", "Chat L1", "Credit Card", "Demographic", "Email", "Email SME", "Inbound", "Inbound SME", "Inside Sale", "Investment/ MF", "L2", "L2 SME", "Rupay", "Social Media", "VKYC"], key="queue")
         call_date = st.date_input("Interaction Date", key="call_date")
         calling_number = st.text_input("Interaction Number", key="calling_number")
     with col2:
@@ -223,7 +223,7 @@ def main_form():
         hold_duration = st.text_input("Hold Duration", key="hold_duration")
         call_link = st.text_input("Call Link", key="call_link")
     with col5:
-        audit_type = st.selectbox("Audit Type", ["Regular Audit", "OJT-Feedback1", "OJT-Feedback2", "Certification1"], key="audit_type")
+        audit_type = st.selectbox("Audit Type", ["Hygiene", "BAU/Regular", "DSAT","CSAT", "Neutral", "Repeat", "FCR", "OJT", "Certification", "Recertification", "Calibration", "ATA", "Mock"], key="audit_type")
         
         def is_duplicate_entity(entity_id, bucket_name, creds_path):
             creds = service_account.Credentials.from_service_account_file(creds_path)
