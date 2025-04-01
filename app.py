@@ -14,12 +14,20 @@ BUCKET_NAME = "jupiter-quality-audit"
 EMP_CSV = "employee_data.csv"
 ACCESS_CSV = "access_control.csv"
 ACPT_CSV = "ACPT.csv"
+PCIR_CSV = "PCIR.csv"
 
 
 # Load data with caching
 @st.cache_data(ttl=3600)
 def load_data():
     emp_df = pd.read_csv(EMP_CSV)
+    access_df = pd.read_csv(ACCESS_CSV)
+    return emp_df, access_df
+
+# Load data with caching
+@st.cache_data(ttl=3600)
+def load_data():
+    emp_df = pd.read_csv(PCIR_CSV)
     access_df = pd.read_csv(ACCESS_CSV)
     return emp_df, access_df
 
@@ -113,7 +121,7 @@ def show_sidebar_stats():
 
                         by_type = this_month_df.groupby('Audit Type')['Total Score'].mean().reset_index()
                         st.markdown("**Audit Type-wise Avg Scores:**")
-                        for _, row in by_type.iterrows():p
+                        for _, row in by_type.iterrows():
                             st.markdown(f"- {row['Audit Type']}: {row['Total Score']:.2f}%")
 
                         trend = this_month_df.groupby('Audit Date')['Total Score'].mean().reset_index()
@@ -186,7 +194,7 @@ def fetch_associate_info(email, _emp_df):
 
 # Main form section
 def main_form():
-    st.title("📄 Quality Audit Form - Inbound")
+    st.title("📄 Quality Audit Form - Ver 3.0")
 
     # Agent & Call Details
     st.header("Agent & Call Details")
@@ -241,11 +249,11 @@ def main_form():
                         continue
             return False
 
-        entity_id = st.text_input("Entity ID", key="entity_id")
+        entity_id = st.text_input("FD-Ticket or Sprik-Case ID", key="entity_id")
 
-        if st.button("Check Entity ID", key="check_entity"):
+        if st.button("Check FD-Ticket/Sprik-Case ID", key="check_entity"):
             if not entity_id.strip():
-                st.warning("Please enter an Entity ID before checking.")
+                st.warning("Please enter an FD-Ticket or Sprik-Case ID before checking.")
             elif is_duplicate_entity(entity_id, BUCKET_NAME, CREDS_FILE):
                 st.session_state.entity_check = False
                 st.error("🚫 Duplicate Entity ID detected. Please use a unique one.")
@@ -262,7 +270,7 @@ def main_form():
     # Parameters Configuration
     parameters = {
         "Opening and Closing": ["Script & Guidelines adherence", "Further Assistance", "Survey pitch", "Compliant"],
-        "Communication and Language": ["Probing and Confirmation",","Grammar and sentence construction", "Tonality, Fluency and Rate of Speech, Timely response", 
+        "Communication and Language": ["Probing and Confirmation","Grammar and sentence construction", "Tonality, Fluency and Rate of Speech, Timely response", 
                                     "Appropriate Language & Word Choice", "Active listening/Reading", 
                                     "Interruption/Parallel Talk/Thread Hijacking/Spamming", "Compliant"],
         "Empathy and Professionalism": ["Empathy/Apology/Assurance", "Acknowledgement/Paraphrasing", "Service No", "Compliant"],
@@ -273,19 +281,21 @@ def main_form():
         "Right action taken": ["Incorrect bucket utilization/movement", "Forceful Supervisor transfer", "Supervisor transfer not done",
                             "Ticket not actioned / wrongly actioned", "Escalation not raised when required", "Inaccurate Escalation",
                             "Incorrect /Inappropriate Transfers", "Promised action not taken", "Compliant"],
-        "Properties": ["Notes", "FD Properties", "Compliant"]
+        "Properties": ["Notes", "FD Properties", "Compliant"],
+        "PCIR": ["Notes", "FD Properties", "Compliant"]
     }
 
     parameter_scores = {
-        "Opening and Closing": 15, 
+       "Opening and Closing": 15, 
         "Communication and Language": 20, 
         "Empathy and Professionalism": 20,
         "Correct and Complete Resolution": 0, 
         "Proactive Assistance": 20, 
         "Hold and Dead air": 10,
         "Right action taken": 0, 
-        "Properties": 15
-    }
+        "Properties": 15,   
+        "PCIR": 0           
+}
 
     
 
@@ -306,6 +316,17 @@ def main_form():
     final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
     st.metric("Overall Score", "ZTP" if ztp_flag == "Yes" else ("Fatal" if fatal_error else f"{final_score_display}%"))
 
+### PCIR 
+    st.header("PCIR")
+    pcir_parameters = load_acpt_parameters(PCIR_CSV)
+
+    pcir_results = {}
+    for category, issues in pcir_parameters.items():
+        st.markdown(f"**{category}**")
+        selected = st.multiselect(f"Select issues under {category}", issues, key=f"pcir_{category}")
+        pcir_results[category] = selected
+
+
     ### ACPT 
     st.header("ACPT Observations (Non-scoring)")
     acpt_parameters = load_acpt_parameters(ACPT_CSV)
@@ -315,6 +336,7 @@ def main_form():
         st.markdown(f"**{category}**")
         selected = st.multiselect(f"Select issues under {category}", issues, key=f"acpt_{category}")
         acpt_results[category] = selected
+
 
     # Now the Action Buttons section can use acpt_results
     final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
@@ -350,6 +372,7 @@ Entity ID: {entity_id}
 LOB: {st.session_state.associate_info["lob"]}
 Department: {st.session_state.associate_info["department"]}
 ZTP Violation: {ztp_flag}
+IF you have any Rebuttal: {"https://docs.google.com/forms/d/1rBm0jnDYsH_dl4zFkdYiSNSSBfOahQet4EdDH7U5bxI/edit"}
 
 Overall Score: {final_score_display}%
 
@@ -380,13 +403,13 @@ Resolution:
             elif st.session_state.get("entity_check") is False:
                 st.error("🚫 Duplicate Entity ID detected. Please use a unique one.")
             elif st.session_state.get("entity_check") is None:
-                st.warning("🔔 Please check if the Entity ID already exists using the 'Check Entity ID' button.")
+                st.warning("🔔 Please check if the Freshdesk-Ticket or Spriklr-Case-ID already exists using the 'Check Freshdesk-Ticket or Spriklr-Case-ID' button.")
             else:
                 audit_entry = {
                     "Queue": queue,
                     "Interaction Date": str(call_date),
                     "Calling Number": calling_number,
-                    "Entity ID": entity_id,
+                    "Freshdesk-Ticket or Spriklr-Case-ID": entity_id,
                     "Audit Date": str(datetime.date.today()),
                     "Associate Email ID": st.session_state.associate_info["email"],
                     "Team Leader Email": st.session_state.associate_info["team_leader_email"],
@@ -407,6 +430,8 @@ Resolution:
                     "Email Sent": "Yes",
                     "Email Timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     "ACPT Observations": acpt_results,
+                    "PCIR Observations": pcir_results,
+
 
                 }
 
