@@ -96,7 +96,7 @@ def show_sidebar_stats():
             with st.sidebar:
                 all_audits = load_all_audits(BUCKET_NAME, CREDS_FILE)
                 df = all_audits.copy()
-                df['Audit Date'] = pd.to_datetime(df['Audit Date'], errors='coerce')
+                
                 df['Total Score'] = pd.to_numeric(df['Total Score'], errors='coerce')
 
                 user_df = df[df['Associate Email ID'].str.lower() == st.session_state.associate_info["email"].lower()]
@@ -209,6 +209,7 @@ def main_form():
     with col1:
         queue = st.selectbox("Queue", ["Inbound", "Outbound"], key="queue")
         call_date = st.date_input("Interaction Date", key="Interaction_date")
+        df['Audit Date'] = pd.to_datetime(df['Audit Date'], errors='coerce')
     with col2:
         st.text_input("Associate Name", value=st.session_state.associate_info["name"], disabled=True, key="associate_name_display")
         st.text_input("Team Lead", value=st.session_state.associate_info["tl_name"], disabled=True, key="team_lead_display")
