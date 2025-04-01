@@ -96,7 +96,7 @@ def show_sidebar_stats():
             with st.sidebar:
                 all_audits = load_all_audits(BUCKET_NAME, CREDS_FILE)
                 df = all_audits.copy()
-                
+                df['Audit Date'] = pd.to_datetime(df['Audit Date'], errors='coerce')
                 df['Total Score'] = pd.to_numeric(df['Total Score'], errors='coerce')
 
                 user_df = df[df['Associate Email ID'].str.lower() == st.session_state.associate_info["email"].lower()]
