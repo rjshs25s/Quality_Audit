@@ -223,7 +223,7 @@ def main_form():
         hold_duration = st.text_input("Hold Duration", key="hold_duration")
         call_link = st.text_input("Call Link", key="call_link")
     with col5:
-        audit_type = st.selectbox("Audit Type", ["Regular Audit", "OJT-Feedback1", "OJT-Feedback2", "Certification1"], key="audit_type")
+        audit_type = st.selectbox("Audit Type", ["Regular Audit", "OJT-Feedback1", "OJT-Feedback2", "Certification1","Focus Audit","Repeat","D-SAT","C-SAT","Nuetral","FCR","Calibration"], key="audit_type")
         
         def is_duplicate_entity(entity_id, bucket_name, creds_path):
             creds = service_account.Credentials.from_service_account_file(creds_path)
