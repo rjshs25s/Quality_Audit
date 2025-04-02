@@ -282,7 +282,7 @@ def main_form():
                             "Ticket not actioned / wrongly actioned", "Escalation not raised when required", "Inaccurate Escalation",
                             "Incorrect /Inappropriate Transfers", "Promised action not taken", "Compliant"],
         "Properties": ["Notes", "FD Properties", "Compliant"],
-        "PCIR": ["Categorization PCIR"]
+        "PCIR": ["Categorization PCIR","Compliant"]
     }
 
     parameter_scores = {
