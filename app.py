@@ -302,17 +302,39 @@ def main_form():
     # Scoring Section
     st.header("Audit Parameters")
     total_score, fatal_error, results = 0, False, []
+    ##############################
+    # Replace the problematic section with this:
     for param, sub_params in parameters.items():
         cols = st.columns([2, 3, 1])
         cols[0].write(param)
-        selected = cols[1].multiselect("", sub_params, default=["Compliant"], key=f"{param}_reasons")
-        score = parameter_scores[param] if "Compliant" in selected else 0
-        if param in ["Correct and Complete Resolution", "Right action taken"] and "Compliant" not in selected and selected:
-            fatal_error = True
-        cols[2].write(f"{score}%")
-        total_score += score
-        results.append({"Parameter": param, "Selected Reasons": ", ".join(selected), "Score": score})
-
+    
+    # Ensure "Compliant" is always in the options and is the default
+    options = sub_params.copy()
+    if "Compliant" not in options:
+        options.append("Compliant")
+    
+    # Handle case where options might be empty
+    if not options:
+        options = ["Compliant"]
+        st.warning(f"No sub-parameters defined for {param}")
+    
+    # Use a unique key that includes the auditor name for session stability
+    unique_key = f"{param}_reasons_{st.session_state.auditor_name}"
+    
+    selected = cols[1].multiselect(
+        "", 
+        options=options,
+        default=["Compliant"],
+        key=unique_key
+    )
+    
+    score = parameter_scores[param] if "Compliant" in selected else 0
+    if param in ["Correct and Complete Resolution", "Right action taken"] and "Compliant" not in selected and selected:
+        fatal_error = True
+    cols[2].write(f"{score}%")
+    total_score += score
+    results.append({"Parameter": param, "Selected Reasons": ", ".join(selected), "Score": score})
+########################
     final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
     st.metric("Overall Score", "ZTP" if ztp_flag == "Yes" else ("Fatal" if fatal_error else f"{final_score_display}%"))
 
