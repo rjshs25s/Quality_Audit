@@ -215,7 +215,7 @@ def main_form():
     # Form Layout
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
-        queue = st.selectbox("Queue", ["Inbound", "Outbound", "Chat L1", "Visa Credit ","Visa Credit ","Demographic", "Email", "Email SME", "Inbound", "Inbound SME", "Inside Sale", "Investment/ MF", "L2", "L2 SME", "Rupay", "Social Media", "VKYC"], key="queue")
+        queue = st.selectbox("Queue", ["Inbound", "Outbound", "Chat L1", "Visa Credit ","Rupay Credit ","Demographic", "Email", "Email SME", "Inbound", "Inbound SME", "Inside Sale", "Investment/ MF", "L2", "L2 SME", "Rupay", "Social Media", "VKYC"], key="queue")
         call_date = st.date_input("Interaction Date", key="call_date")
         calling_number = st.text_input("Interaction Number", key="calling_number")
     with col2:
@@ -282,7 +282,7 @@ def main_form():
                             "Ticket not actioned / wrongly actioned", "Escalation not raised when required", "Inaccurate Escalation",
                             "Incorrect /Inappropriate Transfers", "Promised action not taken", "Compliant"],
         "Properties": ["Notes", "FD Properties", "Compliant"],
-        "PCIR": ["Notes", "FD Properties", "Compliant"]
+        "PCIR": ["Categorization PCIR"]
     }
 
     parameter_scores = {
