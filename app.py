@@ -254,7 +254,7 @@ def main_form():
         creds = service_account.Credentials.from_service_account_file(creds_path)
         client = storage.Client(credentials=creds)
         bucket = client.bucket(bucket_name)
-
+        
         for blob in bucket.list_blobs():
             if blob.name.endswith(".json"):
                 try:
@@ -267,19 +267,19 @@ def main_form():
                         return True
                 except:
                     continue
-            return False
+        return False  # ✅ This should also be outside the for-loop!
 
 
-        entity_id = st.text_input("FD-Ticket or Sprik-Case ID", key="entity_id")
+    entity_id = st.text_input("FD-Ticket or Sprik-Case ID", key="entity_id")
 
-        if st.button("Check FD-Ticket/Sprik-Case ID", key="check_entity"):
-            if not entity_id.strip():
-                st.warning("Please enter an FD-Ticket or Sprik-Case ID before checking.")
-            elif not st.session_state.associate_info["email"]:
-                st.warning("Please lookup associate details first to fetch the Associate Email ID.")
-            elif is_duplicate_entity(entity_id, st.session_state.associate_info["email"], BUCKET_NAME, CREDS_FILE):
-                st.session_state.entity_check = False
-                st.error("🚫 Duplicate found for this ticket and associate. Please use a unique combination.")
+    if st.button("Check FD-Ticket/Sprik-Case ID", key="check_entity"):
+        if not entity_id.strip():
+            st.warning("Please enter an FD-Ticket or Sprik-Case ID before checking.")
+        elif not st.session_state.associate_info["email"]:
+            st.warning("Please lookup associate details first to fetch the Associate Email ID.")
+        elif is_duplicate_entity(entity_id, st.session_state.associate_info["email"], BUCKET_NAME, CREDS_FILE):
+            st.session_state.entity_check = False
+            st.error("🚫 Duplicate found for this ticket and associate. Please use a unique combination.")
         else:
             st.session_state.entity_check = True
             st.success("✅ Entity ID is unique for this associate. You may proceed.")
