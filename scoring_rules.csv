@@ -1,0 +1,38 @@
+Parameter,Sub Parameter,Score,Fatal
+Opening and Closing,Script & Guidelines adherence,3,FALSE
+Opening and Closing,Further Assistance,3,FALSE
+Opening and Closing,Survey pitch,3,FALSE
+Opening and Closing,Complaint,0,FALSE
+Communication and Language,Grammer and sentence construction,5,FALSE
+Communication and Language,"Tonality, Fluency and Rate of Speech, Timely response",5,FALSE
+Communication and Language,Appropriate Language & Word Choice,5,FALSE
+Communication and Language,Active listening/Reading,3,FALSE
+Communication and Language,Interruption/Parallel Talk/Thread Hijacking/Spamming,3,FALSE
+Communication and Language,Probing and Confirmation,9,FALSE
+Communication and Language,Complaint,0,FALSE
+Empathy and Professionalism,Empathy/Apology/Assurance,7,FALSE
+Empathy and Professionalism,Acknowledgement/Paraphrasing,7,FALSE
+Empathy and Professionalism,Service No,7,FALSE
+Empathy and Professionalism,Complaint,0,FALSE
+Correct and Complete Resolution,Complete information/resolution,0,TRUE
+Correct and Complete Resolution,Correct and accurate information/resolution,0,TRUE
+Correct and Complete Resolution,False assurance,0,TRUE
+Proactive Assistance,Proactive information,8,FALSE
+Proactive Assistance,Self help options,8,FALSE
+Proactive Assistance,Alternatives solution,8,FALSE
+Proactive Assistance,Complaint,0,FALSE
+Hold and Dead air,Hold script,4,FALSE
+Hold and Dead air,Dead air/Multiple mute instances,4,FALSE
+Hold and Dead air,Complaint,0,FALSE
+Right action taken,Incorrect bucket utilization/movement,0,TRUE
+Right action taken,Forceful Supervisor transfer,0,TRUE
+Right action taken,Supervisor transfer not done,0,TRUE
+Right action taken,Ticket not actioned / wrongly actioned,0,TRUE
+Right action taken,Escalation not raised when required,0,TRUE
+Right action taken,Inaccurate Escalation,0,TRUE
+Right action taken,Incorrect /Inappropriate Transfers,0,TRUE
+Right action taken,Promised action not taken,0,TRUE
+Right action taken,Complaint,0,TRUE
+Properties,Notes,4,FALSE
+Properties,FD Properties,4,FALSE
+Properties,Complaint,0,FALSE
