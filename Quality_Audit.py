@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
+# import os # os was imported but not used
 import plotly.express as px
 import plotly.graph_objects as go # Needed for Pareto
 from plotly.subplots import make_subplots # Needed for Pareto secondary y-axis
@@ -170,6 +171,39 @@ col2.metric("Total Audits", total_audits)
 col3.metric("ZTP Cases", ztp_count)
 
 st.markdown("---") # Separator
+
+# ---  debugging ---
+st.subheader("🕵️‍♀️ Debugging Parameter Data")
+st.write("Filtered DataFrame Columns:", df_filtered.columns.tolist())
+if "Parameters" in df_filtered.columns:
+    st.write("Data types found in 'Parameters' column:")
+    st.write(df_filtered["Parameters"].apply(type).value_counts())
+    st.write("First 5 entries in 'Parameters' column:")
+    st.dataframe(df_filtered[["Parameters"]].head())
+
+    # Try to inspect the structure of the first valid parameter list item
+    first_valid_param_list = None
+    for item in df_filtered["Parameters"].dropna():
+        if isinstance(item, list) and len(item) > 0 and isinstance(item[0], dict):
+             first_valid_param_list = item
+             break
+        elif isinstance(item, str): # Check if it's a string we might parse
+             try:
+                 parsed_item = json.loads(item.replace("'",'"'))
+                 if isinstance(parsed_item, list) and len(parsed_item) > 0 and isinstance(parsed_item[0], dict):
+                     first_valid_param_list = parsed_item
+                     break
+             except:
+                 pass # Ignore strings that fail parsing
+
+    if first_valid_param_list:
+        st.write("Structure of the first dictionary inside the first valid 'Parameters' list:")
+        st.write(first_valid_param_list[0]) # Show the first dictionary
+    else:
+        st.warning("Could not find a valid list containing dictionaries in the 'Parameters' column.")
+
+st.markdown("---") # Separator before your analysis starts
+# --- End of debugging lines ---
 
 
 # --- Row 2: Parameter Analysis (Moved Up) ---
