@@ -293,13 +293,13 @@ def main_form():
 
     parameter_scores = {
     "Opening and Closing": 9, 
-    "Communication and Language": 20, 
-    "Empathy and Professionalism": 20,
+    "Communication and Language": 30, 
+    "Empathy and Professionalism": 21,
     "Correct and Complete Resolution": 0, 
-    "Proactive Assistance": 20, 
-    "Hold and Dead air": 10,
+    "Proactive Assistance": 24, 
+    "Hold and Dead air": 8,
     "Right action taken": 0, 
-    "Properties": 15,   
+    "Properties": 8,   
     "PCIR": 0           
     }
 
