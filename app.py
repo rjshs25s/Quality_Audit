@@ -15,6 +15,7 @@ EMP_CSV = "employee_data.csv"
 ACCESS_CSV = "access_control.csv"
 ACPT_CSV = "ACPT.csv"
 PCIR_CSV = "PCIR.csv"
+SCORING = "scoring_rules.csv"
 
 
 # Load data with caching
@@ -24,12 +25,9 @@ def load_data():
     access_df = pd.read_csv(ACCESS_CSV)
     return emp_df, access_df
 
-# Load data with caching
 @st.cache_data(ttl=3600)
-def load_data():
-    emp_df = pd.read_csv(PCIR_CSV)
-    access_df = pd.read_csv(ACCESS_CSV)
-    return emp_df, access_df
+def load_pcir_data():
+    return pd.read_csv(PCIR_CSV)
 
 @st.cache_data(ttl=3600)
 def load_all_audits(bucket_name, creds_path):
@@ -47,7 +45,6 @@ def load_all_audits(bucket_name, creds_path):
                 continue
     return pd.DataFrame(data)
 
-
 @st.cache_data(ttl=3600)
 def load_acpt_parameters(csv_file):
     df = pd.read_csv(csv_file)
@@ -56,7 +53,27 @@ def load_acpt_parameters(csv_file):
         acpt_dict[col] = df[col].dropna().tolist()
     return acpt_dict
 
+@st.cache_data(ttl=3600)
+def load_scoring_rules(csv_file=SCORING):
+    df = pd.read_csv(csv_file)
+    # Clean column names
+    df.columns = df.columns.str.strip()
 
+    if 'Fatal' not in df.columns:
+        raise ValueError(f"'Fatal' column not found in {csv_file}. Found columns: {df.columns.tolist()}")
+
+    df['Fatal'] = df['Fatal'].astype(str).str.strip().str.lower() == 'yes'
+
+    scoring_dict = {}
+    for _, row in df.iterrows():
+        param = row['Parameter']
+        sub_param = row['Sub Parameter']
+        score = row['Score']
+        fatal = row['Fatal']
+        if param not in scoring_dict:
+            scoring_dict[param] = {}
+        scoring_dict[param][sub_param] = {"score": score, "fatal": fatal}
+    return scoring_dict
 
 # Initialize session states
 def init_session_state():
@@ -233,33 +250,40 @@ def main_form():
     with col5:
         audit_type = st.selectbox("Audit Type", ["Hygiene", "BAU/Regular", "DSAT","CSAT", "Neutral", "Repeat", "FCR", "OJT", "Certification", "Recertification", "Calibration", "ATA", "Mock"], key="audit_type")
         
-        def is_duplicate_entity(entity_id, bucket_name, creds_path):
-            creds = service_account.Credentials.from_service_account_file(creds_path)
-            client = storage.Client(credentials=creds)
-            bucket = client.bucket(bucket_name)
+    def is_duplicate_entity(entity_id, associate_email, bucket_name, creds_path):
+        creds = service_account.Credentials.from_service_account_file(creds_path)
+        client = storage.Client(credentials=creds)
+        bucket = client.bucket(bucket_name)
 
-            for blob in bucket.list_blobs():
-                if blob.name.endswith(".json"):
+        for blob in bucket.list_blobs():
+            if blob.name.endswith(".json"):
+                try:
                     content = blob.download_as_text()
-                    try:
-                        data = json.loads(content)
-                        if str(data.get("Entity ID", "")).strip().lower() == entity_id.strip().lower():
-                            return True
-                    except:
-                        continue
+                    data = json.loads(content)
+                    if (
+                        str(data.get("Freshdesk-Ticket or Spriklr-Case-ID", "")).strip().lower() == entity_id.strip().lower()
+                        and str(data.get("Associate Email ID", "")).strip().lower() == associate_email.strip().lower()
+                    ):
+                        return True
+                except:
+                    continue
             return False
+
 
         entity_id = st.text_input("FD-Ticket or Sprik-Case ID", key="entity_id")
 
         if st.button("Check FD-Ticket/Sprik-Case ID", key="check_entity"):
             if not entity_id.strip():
                 st.warning("Please enter an FD-Ticket or Sprik-Case ID before checking.")
-            elif is_duplicate_entity(entity_id, BUCKET_NAME, CREDS_FILE):
+            elif not st.session_state.associate_info["email"]:
+                st.warning("Please lookup associate details first to fetch the Associate Email ID.")
+            elif is_duplicate_entity(entity_id, st.session_state.associate_info["email"], BUCKET_NAME, CREDS_FILE):
                 st.session_state.entity_check = False
-                st.error("🚫 Duplicate Entity ID detected. Please use a unique one.")
-            else:
-                st.session_state.entity_check = True
-                st.success("✅ Entity ID is unique. You may proceed.")
+                st.error("🚫 Duplicate found for this ticket and associate. Please use a unique combination.")
+        else:
+            st.session_state.entity_check = True
+            st.success("✅ Entity ID is unique for this associate. You may proceed.")
+
 
     st.text_input("Audit Date", value=str(datetime.date.today()), disabled=True, key="audit_date_display")
     ztp_flag = st.selectbox("Any ZTP Violation?", ["No", "Yes"], key="ztp_flag")
@@ -267,56 +291,68 @@ def main_form():
     issue_voc = st.text_area("Issue (VOC)", key="issue_voc")
     resolution = st.text_area("Resolution", key="resolution")
 
-    # Parameters Configuration
-    parameters = {
-        "Opening and Closing": ["Script & Guidelines adherence", "Further Assistance", "Survey pitch", "Compliant"],
-        "Communication and Language": ["Probing and Confirmation","Grammar and sentence construction", "Tonality, Fluency and Rate of Speech, Timely response", 
-                                    "Appropriate Language & Word Choice", "Active listening/Reading", 
-                                    "Interruption/Parallel Talk/Thread Hijacking/Spamming", "Compliant"],
-        "Empathy and Professionalism": ["Empathy/Apology/Assurance", "Acknowledgement/Paraphrasing", "Service No", "Compliant"],
-        "Correct and Complete Resolution": ["Complete information/resolution", "Correct and accurate information/resolution", "False assurance", 
-                                        "Compliant"],
-        "Proactive Assistance": ["Proactive information", "Self help options", "Alternatives solution", "Compliant"],
-        "Hold and Dead air": ["Hold script, Hold threshold, Unnecessary Hold", "Dead air/Multiple mute instances", "Compliant"],
-        "Right action taken": ["Incorrect bucket utilization/movement", "Forceful Supervisor transfer", "Supervisor transfer not done",
-                            "Ticket not actioned / wrongly actioned", "Escalation not raised when required", "Inaccurate Escalation",
-                            "Incorrect /Inappropriate Transfers", "Promised action not taken", "Compliant"],
-        "Properties": ["Notes", "FD Properties", "Compliant"],
-        "PCIR": ["Categorization PCIR","Compliant"]
+    parameter_scores = {
+    "Opening and Closing": 9, 
+    "Communication and Language": 20, 
+    "Empathy and Professionalism": 20,
+    "Correct and Complete Resolution": 0, 
+    "Proactive Assistance": 20, 
+    "Hold and Dead air": 10,
+    "Right action taken": 0, 
+    "Properties": 15,   
+    "PCIR": 0           
     }
 
-    parameter_scores = {
-       "Opening and Closing": 15, 
-        "Communication and Language": 20, 
-        "Empathy and Professionalism": 20,
-        "Correct and Complete Resolution": 0, 
-        "Proactive Assistance": 20, 
-        "Hold and Dead air": 10,
-        "Right action taken": 0, 
-        "Properties": 15,   
-        "PCIR": 0           
-}
+    # Load scoring rules
 
-    
 
-    # Scoring Section
+
+    scoring_rules = load_scoring_rules(SCORING)
     st.header("Audit Parameters")
+
     total_score, fatal_error, results = 0, False, []
-    for param, sub_params in parameters.items():
+
+    for param, sub_dict in scoring_rules.items():
+        sub_params = list(sub_dict.keys())
         cols = st.columns([2, 3, 1])
         cols[0].write(param)
-        selected = cols[1].multiselect("", sub_params, default=["Compliant"], key=f"{param}_reasons")
-        score = parameter_scores[param] if "Compliant" in selected else 0
-        if param in ["Correct and Complete Resolution", "Right action taken"] and "Compliant" not in selected and selected:
-            fatal_error = True
-        cols[2].write(f"{score}%")
-        total_score += score
-        results.append({"Parameter": param, "Selected Reasons": ", ".join(selected), "Score": score})
 
+        options = get_safe_multiselect_options(sub_params)
+        selected = cols[1].multiselect("", options, default=["Compliant"], key=f"{param}_reasons")
+
+    # 🛑 Force FATAL if key param is not "Compliant"
+        if param in ["Right action taken", "Correct and Complete Resolution"] and "Compliant" not in selected:
+            fatal_error = True
+
+        param_score = parameter_scores[param]
+        if set(selected) == {"Compliant"}:
+            param_score = parameter_scores[param]
+        else:
+            for sub_param in selected:
+                if sub_param != "Compliant":
+                    sub_info = sub_dict.get(sub_param, {"score": 0, "fatal": False})
+                    param_score -= sub_info["score"]
+                    if sub_info["fatal"]:
+                        fatal_error = True
+            param_score = max(0, param_score)
+
+        cols[2].write(f"{param_score}%")
+        total_score += param_score
+
+        results.append({
+            "Parameter": param,
+            "Selected Reasons": ", ".join(selected),
+            "Score": param_score
+        })
+
+
+    # Score display
     final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
     st.metric("Overall Score", "ZTP" if ztp_flag == "Yes" else ("Fatal" if fatal_error else f"{final_score_display}%"))
 
-### PCIR 
+
+    
+    ### PCIR 
     st.header("PCIR")
     pcir_parameters = load_acpt_parameters(PCIR_CSV)
 
@@ -325,7 +361,6 @@ def main_form():
         st.markdown(f"**{category}**")
         selected = st.multiselect(f"Select issues under {category}", issues, key=f"pcir_{category}")
         pcir_results[category] = selected
-
 
     ### ACPT 
     st.header("ACPT Observations")
@@ -337,13 +372,6 @@ def main_form():
         selected = st.multiselect(f"Select issues under {category}", issues, key=f"acpt_{category}")
         acpt_results[category] = selected
 
-
-    # Now the Action Buttons section can use acpt_results
-    final_score_display = 0 if ztp_flag == "Yes" or fatal_error else total_score
-    st.metric("Overall Score", "ZTP" if ztp_flag == "Yes" else ("Fatal" if fatal_error else f"{final_score_display}%"))
-
-
-
     # Action Buttons
     col_email, col_submit = st.columns(2)
 
@@ -354,27 +382,33 @@ def main_form():
             else:
                 plain_body = f"""Audit Summary - {audit_type}
 
+Overall Observations:
+{observations or 'None'}
+
+Issue (VOC):
+{issue_voc or 'None'}
+
+Resolution:
+{resolution or 'None'}
+
+Overall Score: {final_score_display}%
+                
 Agent & Call Details:
 Queue: {queue}
 Call Date: {call_date}
 Calling Number: {calling_number}
 Audit Date: {datetime.date.today()}
 Associate Name: {st.session_state.associate_info["name"]}
-Associate Email: {st.session_state.associate_info["email"]}
 Team Lead: {st.session_state.associate_info["tl_name"]}
-Team Leader Email: {st.session_state.associate_info["team_leader_email"]}
 Auditor Name: {st.session_state.auditor_name}
-Call Duration: {call_duration}
-Hold Duration: {hold_duration}
 Call Link: {call_link}
 Audit Type: {audit_type}
 Entity ID: {entity_id}
 LOB: {st.session_state.associate_info["lob"]}
-Department: {st.session_state.associate_info["department"]}
 ZTP Violation: {ztp_flag}
 IF you have any Rebuttal: {"https://docs.google.com/forms/d/1rBm0jnDYsH_dl4zFkdYiSNSSBfOahQet4EdDH7U5bxI/edit"}
 
-Overall Score: {final_score_display}%
+
 
 Parameters:"""
 
@@ -383,11 +417,7 @@ Parameters:"""
 
                 plain_body += f"""
 
-Overall Observations:
-{observations or 'None'}
 
-Issue (VOC):
-{issue_voc or 'None'}
 
 Resolution:
 {resolution or 'None'}"""
@@ -431,8 +461,6 @@ Resolution:
                     "Email Timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     "ACPT Observations": acpt_results,
                     "PCIR Observations": pcir_results,
-
-
                 }
 
                 json_data = json.dumps(audit_entry, indent=2)
@@ -448,6 +476,10 @@ Resolution:
                 except Exception as e:
                     st.error(f"❌ Failed to upload audit: {e}")
 
+def get_safe_multiselect_options(options_list):
+    if "Compliant" not in options_list:
+        options_list = ["Compliant"] + options_list
+    return options_list
 
 
 # Main app flow
@@ -472,5 +504,3 @@ else:
             st.session_state.email_sent = False
             st.session_state.entity_check = None
             st.rerun()
-
-   
