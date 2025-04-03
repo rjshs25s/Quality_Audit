@@ -215,12 +215,15 @@ def main_form():
 
     # Agent & Call Details
     st.header("Agent & Call Details")
-    associate_email_input = st.text_input("Associate Email ID", key="associate_email")
 
-    if associate_email_input and st.button("Lookup Details", key="lookup_details"):
-        associate_name, tl_name, team_leader_email, department, lob = fetch_associate_info(associate_email_input, emp_df)
+    work_emails = sorted(emp_df["Work Email"].dropna().unique().tolist())  # Ensure this is defined above
+    associate_email = st.selectbox("Select Associate Email ID", options=["-- Select --"] + work_emails)
+
+    if associate_email != "-- Select --" and st.button("Lookup Details"):
+        associate_name, tl_name, team_leader_email, department, lob = fetch_associate_info(associate_email, emp_df)
+
         st.session_state.associate_info = {
-            "email": associate_email_input,
+            "email": associate_email,
             "name": associate_name,
             "tl_name": tl_name,
             "team_leader_email": team_leader_email,
@@ -228,6 +231,7 @@ def main_form():
             "lob": lob
         }
         st.rerun()
+
 
     # Form Layout
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -359,7 +363,7 @@ def main_form():
     pcir_results = {}
     for category, issues in pcir_parameters.items():
         st.markdown(f"**{category}**")
-        selected = st.multiselect(f"Select issues under {category}", issues, key=f"pcir_{category}")
+        selected = st.multiselect(f"Select right PCIR {category}", issues, key=f"pcir_{category}")
         pcir_results[category] = selected
 
     ### ACPT 
